@@ -32,7 +32,7 @@ export default function Navbar() {
 ]
    return (
    
-      <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
+      <div className="flex justify-between items-center w-full h-20  px-4 text-white bg-black fixed">
          <div>
             <h1 className='text-5xl font-signature ml-2'>ThomasAurelius</h1>
          </div>
@@ -50,7 +50,7 @@ export default function Navbar() {
             
          </ul>
 
-         <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-10 text-grey-500'>
+         <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-10 text-grey-500 md:hidden'>
             {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
          </div>
 
