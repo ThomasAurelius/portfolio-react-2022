@@ -7,6 +7,10 @@ import tailwind from '../assets/tailwind.png'
 import javascript from '../assets/javascript.png'
 import nextjs from '../assets/nextjs.png'
 import graphql from '../assets/graphql.png'
+import node from '../assets/node.png'
+import express from '../assets/express.png'
+import apollo from '../assets/apollo.png'
+import sass from '../assets/sass.png'
 
 export default function Experience() {
 
@@ -58,7 +62,7 @@ export default function Experience() {
          src: graphql,
          alt: "Graph QL badge",
          title: "Graph QL",
-         style: 'shadow-pink-400'
+         style: 'shadow-pink-600'
       },
       {
          id: 8,
@@ -66,7 +70,35 @@ export default function Experience() {
          alt: "Github badge",
          title: "Github",
          style: 'shadow-gray-400'
-      }
+      },
+      {
+         id: 9,
+         src: node,
+         alt: "NodeJS badge",
+         title: "NodeJs",
+         style: 'shadow-green-300'
+      },
+      {
+         id: 10,
+         src: express,
+         alt: "Express badge",
+         title: "Express",
+         style: 'shadow-gray-400'
+      },
+      {
+         id: 11,
+         src: apollo,
+         alt: "Apollo badge",
+         title: "Apollo",
+         style: 'shadow-blue-800'
+      },
+      {
+         id: 12,
+         src: sass,
+         alt: "Sass badge",
+         title: "Sass",
+         style: 'shadow-pink-400'
+      },
    ]
 
   return (
@@ -74,7 +106,7 @@ export default function Experience() {
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
          <div>
             <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experience</p>
-            <p className='py-6'>These are the technologies I have worked with:</p>
+            <p className='py-6'>These are the technologies I have experience with:</p>
          </div>   
 
          <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
