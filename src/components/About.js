@@ -7,7 +7,7 @@ export default function About() {
          <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4'>About</p>
          </div>
-         <p className='text-xl mt-20'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, suscipit. Amet dolorum magnam quis officia molestias repellendus inventore voluptatibus, alias rerum possimus reiciendis reprehenderit necessitatibus, a enim, ea minima fugiat neque? Facere consequatur eligendi quos odio maiores molestiae nobis esse, cum, pariatur distinctio ipsa excepturi sequi mollitia! Expedita, molestiae delectus.
+         <p className='text-xl mt-10'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, suscipit. Amet dolorum magnam quis officia molestias repellendus inventore voluptatibus, alias rerum possimus reiciendis reprehenderit necessitatibus, a enim, ea minima fugiat neque? Facere consequatur eligendi quos odio maiores molestiae nobis esse, cum, pariatur distinctio ipsa excepturi sequi mollitia! Expedita, molestiae delectus.
          </p>
          <br />
          <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos assumenda tenetur, tempora consequatur saepe tempore cumque odit mollitia dicta molestiae fugiat suscipit eveniet vero aliquam pariatur! Debitis illum repudiandae officiis sequi cupiditate veniam quasi fugit temporibus! Necessitatibus hic a veritatis nostrum! Obcaecati totam vitae nulla nobis ea, soluta voluptas!</p>

@@ -20,7 +20,7 @@ export default function Home() {
             </div>
          </div>
          <div>
-            <img src={heroImg} alt="Thomas Aurelius" className='rounded-2xl mx-auto w-2/3 md:w-full' />
+            <img src={heroImg} alt="Thomas Aurelius" className='rounded-2xl mx-auto w-2/3 md:w-full mb-80' />
          </div>
       </div>
       
