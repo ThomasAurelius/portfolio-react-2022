@@ -3,7 +3,7 @@ import space from '../assets/fm_space_landscape.png'
 import insure from '../assets/fm_insure_landscape.png'
 import dine from '../assets/fm_dine_landscape.png'
 import blogr from '../assets/fm_blogr_landscape_thumbnail.png'
-import shoes from '../assets/shoes-landscape.png'
+import loop from '../assets/fm_loop_landscape.png'
 import malarki from '../assets/malarki-landscape.png'
 
 export default function Portfolio() {
@@ -13,43 +13,43 @@ export default function Portfolio() {
          id: 1,
          src: space,
          alt: "Space Tourism Website",
-         code: "",
+         code: "https://github.com/ThomasAurelius/fm_react_space_tourism",
          live: ""
       },
       {
          id: 2,
          src: insure,
          alt: "Example Insurance Website",
-         code: "",
-         live: ""
+         code: "https://github.com/ThomasAurelius/fm_insure-landing-page-master",
+         live: "https://thomasaurelius.github.io/fm_insure-landing-page-master/"
       },
       {
          id: 3,
          src: dine,
          alt: "Example Restaurant Website",
-         code: "",
-         live: ""
+         code: "https://github.com/ThomasAurelius/fm_dine-restaurant-website",
+         live: "https://thomasaurelius.github.io/fm_dine-restaurant-website/"
       },
       {
          id: 4,
          src: blogr,
          alt: "Example Blog Website",
-         code: "",
-         live: ""
+         code: "https://github.com/ThomasAurelius/fm_blogr-landing-page-main",
+         live: "https://thomasaurelius.github.io/fm_blogr-landing-page-main/"
       },
       {
          id: 5,
-         src: shoes,
-         alt: "Example Shoes Website",
-         code: "",
-         live: ""
+         src: loop,
+         alt: "Example Loopstudios Website",
+         code: "https://github.com/ThomasAurelius/fm_loopstudios-landing-page-main",
+         live: "https://thomasaurelius.github.io/fm_loopstudios-landing-page-main/"
       },
       {
          id: 6,
          src: malarki,
          alt: "Example Software Website",
-         code: "",
-         live: ""
+         code: "https://github.com/ThomasAurelius/malarki",
+         live: "https://thomasaurelius.github.io/malarki/"
       }
    ]
 
@@ -68,8 +68,8 @@ export default function Portfolio() {
                   <div  key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                      <img src={src} alt={alt} className='rounded-md duration-200 hover:scale-105'/>
                      <div className='flex items-center justify-center'>
-                        <button className='w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105'><a href={live}>Live Demo</a></button>
-                        <button className='w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105'><a href={code}>Source Code</a></button>
+                        <button className='w-1/2 px-6 py-0 m-1 duration-200 hover:scale-105'><a href={live}>Live Demo</a></button>
+                        <button className='w-1/2 px-6 py-0 m-1 duration-200 hover:scale-105'><a href={code}>Source Code</a></button>
                      </div>
                   </div>
                

@@ -10,11 +10,14 @@ export default function Contact() {
          </div>
 
          <div className='flex justify-center items-center'>
-            <form action="https://getform.io/f/415db701-8f8d-4846-8fad-9847f90b3552" method='POST' className='flex flex-col w-full md:w-1/2 mx-auto'>  
+            <form action="https://formsubmit.co/thomas.aurelius.widmer@gmail.com" method='POST' className='flex flex-col w-full md:w-1/2 mx-auto'>  
                <input type="text" name="name" placeholder='Enter your name' className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'/>
                <input type="email" name="email" placeholder='Enter your email' className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'/>
                <textarea name="message" placeholder='Enter your message' rows="10" className='p-2 bg-transparent border-2 rounded-md text-white focus:outline:none'>
                </textarea>
+               <input type="hidden" name="_next" value="https://thomasaurelius.com/thanks.html"></input>
+               <input type="text" name="_honey" className='display-none' />   
+               <input type="hidden" name="_subject" value="New submission!"></input>
 
                <button className='text-white accent-color px-6 py-3 my-8 mx-auto flex items bg-center rounded-md hover:scale-110'>Submit</button>
             
