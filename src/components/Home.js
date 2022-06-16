@@ -11,7 +11,7 @@ export default function Home() {
             <h2 className='text-4xl sm:text-7xl font-bold text-white'>I am a Full Stack Developer</h2>
             <p className='text-gray-500 py-4 max-w-md'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia rerum perferendis aut tenetur beatae, delectus necessitatibus ut. Quam, dolorum incidunt?</p>
             <div>
-            <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+            <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md accent-color cursor-pointer'>
                Portfolio 
                <span className='group-hover:rotate-90 duration-300 pl-1'>
                   <BsArrowRight size={20} className='ml-1' />

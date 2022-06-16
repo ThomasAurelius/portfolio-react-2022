@@ -16,7 +16,7 @@ export default function Contact() {
                <textarea name="message" placeholder='Enter your message' rows="10" className='p-2 bg-transparent border-2 rounded-md text-white focus:outline:none'>
                </textarea>
 
-               <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items bg-center rounded-md hover:scale-110'>Submit</button>
+               <button className='text-white accent-color px-6 py-3 my-8 mx-auto flex items bg-center rounded-md hover:scale-110'>Submit</button>
             
             </form>
          </div>
