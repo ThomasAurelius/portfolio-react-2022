@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa'
 import  { Link } from 'react-scroll';
+import logo from "../assets/Logo Asset 3 - white.png"
 
 
 
@@ -35,7 +36,7 @@ export default function Navbar() {
    
       <div className="flex justify-between items-center w-full h-20  px-4 text-white bg-black fixed ">
          <div>
-            <h1 className='text-5xl font-signature ml-2'>ThomasAurelius</h1>
+            <img src={logo} alt="logo" className='navlogo' />
          </div>
          <ul className='hidden md:flex'>
 
