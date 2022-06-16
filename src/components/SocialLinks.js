@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { SiCodewars } from 'react-icons/si';
 
 export default function SocialLinks() {
 
@@ -26,13 +27,22 @@ const links = [
    {
       id: 3,
       child: (
-         <> Mail <HiOutlineMail size={30} />  
+         <> Codewars <SiCodewars size={30} />  
          </>
       ),
       href: 'mailto:thomas.aurelius.widmer@gmail.com'
    },
    {
       id: 4,
+      child: (
+         <> Mail <HiOutlineMail size={30} />  
+         </>
+      ),
+      href: 'mailto:thomas.aurelius.widmer@gmail.com'
+   },
+   
+   {
+      id: 5,
       child: (
          <> Resume <BsFillPersonLinesFill size={30} />  
          </>
@@ -50,7 +60,7 @@ const links = [
 
       {links.map(({ id, child, href, style, download }) => (
          <li key={id}
-            className={'flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:ml-[-1px] hover:rounded-md duration-300' + " " + style}>
+            className={'flex justify-between items-center w-36 h-12 px-3 bg-accent ml-[-90px] hover:ml-[-1px] hover:rounded-md duration-300' + " " + style}>
             <a href={href} 
                className='flex justify-between items-center text-white w-full'
                download={download}

@@ -5,11 +5,11 @@ import { BsArrowRight } from 'react-icons/bs'
 
 export default function Home() {
   return (
-    <div name="home" className='h-full w-full bg-gradient-to-b from-black via-black to-gray-800 text-white pt-40 md:pt-40' >
+    <div name="home" className='h-full w-full bg-gradient-to-b from-black via-black to-gray-800 text-white pt-40  lg:px-12 md:pt-40' >
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row xs:text-center'>
          <div className='flex flex-col justify-center h-full'>
             <h2 className='text-4xl sm:text-7xl font-bold text-white'>I am a Full Stack Developer</h2>
-            <p className='text-gray-500 py-4 max-w-md'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia rerum perferendis aut tenetur beatae, delectus necessitatibus ut. Quam, dolorum incidunt?</p>
+            <p className='text-gray-500 py-4 max-w-md'>I create unique and modern web experiences using the web's most powerful and proven technologies. My webpages and applications employ modern design principles, and cutting edge SEO technology with enhanced accessibility beind the scenes. Below, you can take a look at some of my work, and get in contact with me. I look forward to working with you soon!</p>
             <div>
             <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md accent-color cursor-pointer'>
                Portfolio 

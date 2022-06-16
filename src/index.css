@@ -20,6 +20,10 @@
   background-color: #009fc7;
 }
 
+.bg-accent {
+  background-color: #009fc7;;
+}
+
 .display-none {
   display: none;
 }
