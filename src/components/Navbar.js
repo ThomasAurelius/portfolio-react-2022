@@ -39,17 +39,15 @@ export default function Navbar() {
             <img src={logo} alt="logo" className='navlogo' />
          </div>
          <ul className='hidden md:flex'>
-
-         {links.map(({ id, link }) => (
-            <li 
-               key={id} 
-               className='px-4 cursor-pointer capitalize font-medium text-gray-300 hover:scale-105 duration-200'
-               >
-               <Link to={link} smooth duration={500}>{link}</Link>
-            </li>
-         ))
-         }  
-            
+            {links.map(({ id, link }) => (
+               <li 
+                  key={id} 
+                  className='px-4 cursor-pointer capitalize font-medium text-gray-300 hover:scale-105 duration-200'
+                  >
+                     <Link to={link} smooth duration={500}>{link}</Link>
+               </li>
+            ))
+            }              
          </ul>
 
          <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-10 text-grey-500 md:hidden'>

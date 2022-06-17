@@ -14,8 +14,7 @@ export default function About() {
          <p className='text-xl'>In my daily life, I am a father of two amazing teenagers, as well as a dog
 						dad to a wonderfully sweet Dachshund. I enjoy gardening, playing board, card and video games, painting miniatures as well
 						as reading, and tinkering with electronics.</p>
-      </article>
-    
+      </article>    
     </section>
   )
 }

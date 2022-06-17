@@ -19,8 +19,7 @@ export default function Contact() {
                <input type="text" name="_honey" className='display-none' />   
                <input type="hidden" name="_subject" value="New submission!"></input>
 
-               <button className='text-white accent-color px-6 py-3 my-8 mx-auto flex items bg-center rounded-md hover:scale-110'>Submit</button>
-            
+               <button className='text-white accent-color px-6 py-3 my-8 mx-auto flex items bg-center rounded-md hover:scale-110'>Submit</button>            
             </form>
          </div>
       </article>
