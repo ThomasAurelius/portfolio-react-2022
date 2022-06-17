@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react-2022/static/css/main.6f727b8d.css",
-    "main.js": "/portfolio-react-2022/static/js/main.5668abf6.js",
+    "main.css": "/portfolio-react-2022/static/css/main.953e413e.css",
+    "main.js": "/portfolio-react-2022/static/js/main.9d12d138.js",
     "static/media/fm_loop_landscape.png": "/portfolio-react-2022/static/media/fm_loop_landscape.e5105fec026699bc6cff.png",
     "static/media/fm_space_landscape.png": "/portfolio-react-2022/static/media/fm_space_landscape.38e2e9f76a5b01cea1ad.png",
     "static/media/fm_dine_landscape.png": "/portfolio-react-2022/static/media/fm_dine_landscape.da6aa04d301d8a5f1d79.png",
@@ -27,11 +27,11 @@
     "static/media/apollo.png": "/portfolio-react-2022/static/media/apollo.9c2050eab134d5e8c743.png",
     "static/media/javascript.png": "/portfolio-react-2022/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio-react-2022/index.html",
-    "main.6f727b8d.css.map": "/portfolio-react-2022/static/css/main.6f727b8d.css.map",
-    "main.5668abf6.js.map": "/portfolio-react-2022/static/js/main.5668abf6.js.map"
+    "main.953e413e.css.map": "/portfolio-react-2022/static/css/main.953e413e.css.map",
+    "main.9d12d138.js.map": "/portfolio-react-2022/static/js/main.9d12d138.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f727b8d.css",
-    "static/js/main.5668abf6.js"
+    "static/css/main.953e413e.css",
+    "static/js/main.9d12d138.js"
   ]
 }
