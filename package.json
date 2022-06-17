@@ -13,7 +13,7 @@
     "react-scroll": "^1.8.7",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "/portfolio_react_tailwind/",
+  "homepage": "/portfolio_react_tailwind/index.html",
   "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
