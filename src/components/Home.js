@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImg from '../assets/heroimg.jpg'
+import heroImg from '../assets/ta-01.png'
 import { BsArrowRight } from 'react-icons/bs'
 import { Link } from 'react-scroll'
 
