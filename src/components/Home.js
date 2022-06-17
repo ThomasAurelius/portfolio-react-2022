@@ -10,7 +10,7 @@ export default function Home() {
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row xs:text-center'>
          <div className='flex flex-col justify-center h-full'>
             <h2 className='text-4xl sm:text-7xl font-bold text-white'>I am a Full Stack Developer</h2>
-            <p className='text-gray-500 py-4 max-w-md'>I create unique and modern web experiences using the web's most powerful and proven technologies. My webpages and applications employ modern design principles, with cutting edge SEO technology and enhanced accessibility behind the scenes. Below, you will find a selection of my work, and my contact information. I look forward to working with you soon!</p>
+            <p className='text-gray-500 py-4 max-w-md'>I create unique and modern web experiences using the web's most powerful and proven technologies. My webpages and applications employ modern design principles, with cutting edge SEO technology and enhanced accessibility behind the scenes. </p>
             <div>
             <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md accent-color cursor-pointer'>
                

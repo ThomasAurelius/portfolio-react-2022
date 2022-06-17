@@ -3,6 +3,7 @@ import github from '../assets/github_icon.png'
 import linkedin from '../assets/linkedin_icon.png'
 import codewars from '../assets/codewars_icon.png'
 import codepen from '../assets/codepen_icon.png'
+import instagram from '../assets/instagram_icon.png';
 
 export default function Footer() {
   return (
@@ -31,6 +32,11 @@ export default function Footer() {
 					<li className="social-list_item">
 						<a className="social-list_link" href="https://github.com/ThomasAurelius" target="_blank"rel="noreferrer">
 							<img className="social_list_img" src={github} alt="" />
+						</a>
+					</li>
+					<li className="social-list_item">
+						<a className="social-list_link" href="https://instagram.com/thomasofaurelius" target="_blank"rel="noreferrer">
+							<img className="social_list_img" src={instagram} alt="" />
 						</a>
 					</li>
 				</ul>
