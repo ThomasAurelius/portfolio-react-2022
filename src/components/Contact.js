@@ -15,7 +15,7 @@ export default function Contact() {
                <input type="email" name="email" placeholder='Enter your email' className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'/>
                <textarea name="message" placeholder='Enter your message' rows="10" className='p-2 bg-transparent border-2 rounded-md text-white focus:outline:none'>
                </textarea>
-               <input type="hidden" name="_next" value="https://thomasaurelius.com/thanks.html"></input>
+               <input type="hidden" name="_next" value="https://thomasaurelius.com/thanks/index.html"></input>
                <input type="text" name="_honey" className='display-none' />   
                <input type="hidden" name="_subject" value="New submission!"></input>
 

@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-react-2022",
+  "name": "thanks",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,7 +13,7 @@
     "react-scroll": "^1.8.7",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://thomasaurelius.com/",
+  "homepage": "https://thomasaurelius.com/thanks/",
   "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
