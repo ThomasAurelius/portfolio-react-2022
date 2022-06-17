@@ -34,7 +34,7 @@ export default function Navbar() {
 ]
    return (
    
-      <div className="flex justify-between items-center w-full h-20  px-4 text-white bg-black fixed lg:px-12">
+      <nav className="flex justify-between items-center w-full h-20  px-4 text-white bg-black fixed lg:px-12">
          <div>
             <img src={logo} alt="logo" className='navlogo' />
          </div>
@@ -69,6 +69,6 @@ export default function Navbar() {
             }                         
          </ul>
          )}
-      </div>    
+      </nav>    
    );
 }

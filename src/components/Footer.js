@@ -5,8 +5,8 @@ import { SiCodewars } from 'react-icons/si';
 
 export default function Footer() {
   return (
-    <div>   
-      <div class="footer bg-gradient-to-b from-gray-800 to-black text-white  lg:px-12">
+    <footer>   
+      <article class="footer bg-gradient-to-b from-gray-800 to-black text-white  lg:px-12">
 
 				<h3 className='font-bold'>Contact me!</h3>
 				<a href="mailto:thomas.aurelius.widmer@gmail.com" className="footer_link  md:text-2xl ">thomas.aurelius.widmer@gmail.com</a>
@@ -41,8 +41,8 @@ export default function Footer() {
 				<div className="final">
 					<small><span>&copy;</span> <strong>Thomas Aurelius </strong></small>
 				</div>
-			</div>
+		</article>
     
-    </div>
+    </footer>
   )
 }

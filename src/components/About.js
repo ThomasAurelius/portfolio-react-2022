@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div name="about" className='w-full h-full bg-gradient-to-b to-gray-800 from-black text-white pb-20 lg:px-12'>   
-      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full '>
+    <section name="about" className='w-full h-full bg-gradient-to-b to-gray-800 from-black text-white pb-20 lg:px-12'>   
+      <article className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full '>
          <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4'>About</p>
          </div>
@@ -14,8 +14,8 @@ export default function About() {
          <p className='text-xl'>In my daily life, I am a father of two amazing teenagers, as well as a dog
 						dad to a wonderfully sweet Dachshund. I enjoy gardening, playing board, card and video games, painting miniatures as well
 						as reading, and tinkering with electronics.</p>
-      </div>
+      </article>
     
-    </div>
+    </section>
   )
 }

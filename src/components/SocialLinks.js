@@ -63,7 +63,7 @@ const links = [
 
   return (
     <>
-    <div className='hidden lg:flex flex-col top-[35%] left-0 fixed '>
+    <section className='hidden lg:flex flex-col top-[35%] left-0 fixed '>
       <ul>
 
       {links.map(({ id, child, href, style, download }) => (
@@ -83,7 +83,7 @@ const links = [
          
       
       </ul>
-   </div>
+   </section>
     </>
   );
 }
