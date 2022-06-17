@@ -24,6 +24,10 @@
   background-color: #009fc7;;
 }
 
+.text-accent {
+  color: #009fc7
+}
+
 .display-none {
   display: none;
 }
