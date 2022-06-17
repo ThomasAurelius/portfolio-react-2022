@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { SiCodewars } from 'react-icons/si';
@@ -35,6 +35,14 @@ const links = [
    {
       id: 4,
       child: (
+         <> Instagram <FaInstagram size={30} />  
+         </>
+      ),
+      href: 'mailto:thomas.aurelius.widmer@gmail.com'
+   },
+   {
+      id: 5,
+      child: (
          <> Mail <HiOutlineMail size={30} />  
          </>
       ),
@@ -42,7 +50,7 @@ const links = [
    },
    
    {
-      id: 5,
+      id: 6,
       child: (
          <> Resume <BsFillPersonLinesFill size={30} />  
          </>

@@ -3,7 +3,9 @@ import github from '../assets/github_icon.png'
 import linkedin from '../assets/linkedin_icon.png'
 import codewars from '../assets/codewars_icon.png'
 import codepen from '../assets/codepen_icon.png'
-import instagram from '../assets/instagram_icon.png';
+import instagram from '../assets/instagram_icon.png'
+import { FaGithub, FaLinkedin, FaInstagram, FaCodepen, FaCode } from 'react-icons/fa'
+import { SiCodewars } from 'react-icons/si';
 
 export default function Footer() {
   return (
@@ -15,28 +17,27 @@ export default function Footer() {
 				<ul className="social-list my-4">
 					<li className="social-list_item">
 						<a className="social-list_link" href="https://www.codewars.com/users/ThomasAurelius" target="_blank" rel="noreferrer">
-							<img className="social_list_img" src={codewars} alt="" />
+							<SiCodewars size={50} />
 						</a>
 					</li>
-					<li className="social-list_item">
+					<li className="social-list_item md:px-4">
 						<a className="social-list_link" href="https://codepen.io/ThomasAurelius/" target="_blank" rel="noreferrer">
-							<img className="social_list_img" src={codepen} alt="" />
+							<FaCodepen size={50} />
 						</a>
-					</li>
-									
+					</li>									
 					<li className="social-list_item">
 						<a className="social-list_link" href="https://www.linkedin.com/in/thomasgooch/" target="_blank" rel="noreferrer">
-							<img className="social_list_img" src={linkedin} alt="" />
+							<FaLinkedin size={50} />
 						</a>
 					</li>
-					<li className="social-list_item">
+					<li className="social-list_item md:px-4">
 						<a className="social-list_link" href="https://github.com/ThomasAurelius" target="_blank"rel="noreferrer">
-							<img className="social_list_img" src={github} alt="" />
+							<FaGithub size={50} />
 						</a>
 					</li>
 					<li className="social-list_item">
 						<a className="social-list_link" href="https://instagram.com/thomasofaurelius" target="_blank"rel="noreferrer">
-							<img className="social_list_img" src={instagram} alt="" />
+							<FaInstagram size={50} />
 						</a>
 					</li>
 				</ul>
