@@ -1,10 +1,6 @@
 import React from 'react'
-import github from '../assets/github_icon.png'
-import linkedin from '../assets/linkedin_icon.png'
-import codewars from '../assets/codewars_icon.png'
-import codepen from '../assets/codepen_icon.png'
-import instagram from '../assets/instagram_icon.png'
-import { FaGithub, FaLinkedin, FaInstagram, FaCodepen, FaCode } from 'react-icons/fa'
+
+import { FaGithub, FaLinkedin, FaInstagram, FaCodepen } from 'react-icons/fa'
 import { SiCodewars } from 'react-icons/si';
 
 export default function Footer() {

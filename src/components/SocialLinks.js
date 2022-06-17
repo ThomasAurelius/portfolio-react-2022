@@ -13,7 +13,7 @@ const links = [
          <> LinkedIn <FaLinkedin size={30} />  
          </>
       ),
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/thomasgooch/',
       style: 'rounded-tr-md'
    },
    {
@@ -30,7 +30,7 @@ const links = [
          <> Codewars <SiCodewars size={30} />  
          </>
       ),
-      href: 'mailto:thomas.aurelius.widmer@gmail.com'
+      href: 'https://www.codewars.com/users/ThomasAurelius'
    },
    {
       id: 4,
@@ -38,7 +38,7 @@ const links = [
          <> Instagram <FaInstagram size={30} />  
          </>
       ),
-      href: 'mailto:thomas.aurelius.widmer@gmail.com'
+      href: 'https://instagram.com/thomasofaurelius'
    },
    {
       id: 5,
@@ -55,7 +55,7 @@ const links = [
          <> Resume <BsFillPersonLinesFill size={30} />  
          </>
       ),
-      href: '/resume.pdf',
+      href: '/thomas_gooch_resume_061722.pdf',
       style: 'rounded-br-md',
       download: true,
    }
