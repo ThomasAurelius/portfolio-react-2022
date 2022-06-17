@@ -12,13 +12,16 @@ export default function Home() {
             <h2 className='text-4xl sm:text-7xl px-4 font-bold text-white'>I am a Full Stack Web Developer</h2>
             <p className='text-gray-500 py-4 px-4 max-w-md self-end'>I create unique and modern web experiences using the web's most powerful and proven technologies. My webpages and applications employ modern design principles, with cutting edge SEO technology and enhanced accessibility behind the scenes. </p>
             <div className="self-center">
+               <Link to={'portfolio'} smooth duration={500}>
+
             <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md accent-color cursor-pointer  '>
-               
-               <Link to={'portfolio'} smooth duration={500}>Portfolio</Link>
+               Portfolio
                <span className='group-hover:rotate-90 duration-300 pl-1'>
                   <BsArrowRight size={20} className='ml-1' />
                </span>
+               
             </button>
+            </Link>
             </div>
          </div>
          <div>
