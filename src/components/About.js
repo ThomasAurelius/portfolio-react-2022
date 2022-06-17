@@ -8,7 +8,7 @@ export default function About() {
             <p className='text-4xl font-bold inline border-b-4'>About</p>
          </div>
          <p className='text-xl mt-10'>Ambitious and driven Software Developer focusing on Javascript and React, with a keen interest in Machine Learning and AI. I
-          have a strong leadership background and enjoy mentoring other developers, and supporting the dev community. I enjoy the creative process of software development and overcoming new challenges. I am a process and personal improvement evangelist, with a deep belief in the power of leaving everything better than I found it.
+          have a strong leadership background and enjoy mentoring other developers, and supporting the dev community. I enjoy the creative process of software development and overcoming new challenges. As a process and personal improvement evangelist, I have a deep belief in the power of leaving everything better than I found it.
          </p>
          <br />
          <p className='text-xl'>In my daily life, I am a father of two amazing teenagers, as well as a dog
