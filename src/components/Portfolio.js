@@ -5,18 +5,7 @@ import dine from '../assets/fm_dine_landscape.png'
 import blogr from '../assets/fm_blogr_landscape_thumbnail.png'
 import loop from '../assets/fm_loop_landscape.png'
 import malarki from '../assets/malarki-landscape.png'
-import css from '../assets/css.png'
-import github from '../assets/github.png'
-import reactImg from '../assets/react.png'
-import html from '../assets/html.png'
-import tailwind from '../assets/tailwind.png'
-import javascript from '../assets/javascript.png'
-import nextjs from '../assets/nextjs.png'
-import graphql from '../assets/graphql.png'
-import node from '../assets/node.png'
-import express from '../assets/express.png'
-import apollo from '../assets/apollo.png'
-import sass from '../assets/sass.png'
+
 
 export default function Portfolio() {
 
