@@ -13,22 +13,19 @@ export default function Home() {
             <p className='text-gray-500 py-4 px-4 max-w-md self-center md:self-end '>I create unique and modern web experiences using the web's most powerful and proven technologies.  </p>
             <div className="self-center">
                <Link to={'portfolio'} smooth duration={500}>
-
-            <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md accent-color cursor-pointer md:mb-40 '>
+               <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md accent-color cursor-pointer md:mb-40 '>
                Portfolio
                <span className='group-hover:rotate-90 duration-300 pl-1'>
                   <BsArrowRight size={20} className='ml-1' />
-               </span>
-               
+               </span>               
             </button>
             </Link>
             </div>
          </div>
          <div>
-            <img src={heroImg} alt="Thomas Aurelius" className='rounded-2xl mx-auto w-2/3 md:w-full  mb-2' />
+            <img src={heroImg} alt="Thomas Aurelius" className='rounded-2xl mx-auto w-2/3 md:w-full mb-2' />
          </div>
-      </article>
-      
+      </article>      
     </section>
   )
 }
