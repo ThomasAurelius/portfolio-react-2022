@@ -62,10 +62,8 @@ const links = [
 ]
 
   return (
-    <>
-    <div className='hidden lg:flex flex-col top-[35%] left-0 fixed '>
+    <section className='hidden lg:flex flex-col top-[35%] left-0 fixed '>
       <ul>
-
       {links.map(({ id, child, href, style, download }) => (
          <li key={id}
             className={'flex justify-between items-center w-36 h-12 px-3 bg-accent ml-[-90px] hover:ml-[-1px] hover:rounded-md duration-300' + " " + style}>
@@ -78,12 +76,9 @@ const links = [
                {child}
             </a>
          </li>
-
-      ))}
-         
+      ))}       
       
       </ul>
-   </div>
-    </>
+   </section>
   );
 }
