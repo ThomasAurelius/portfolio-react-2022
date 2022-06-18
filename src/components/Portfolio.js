@@ -14,8 +14,8 @@ export default function Portfolio() {
          id: 1,
          src: space,
          alt: "Space Tourism Website",
-         code: "https://github.com/ThomasAurelius/fm_react_space_tourism",
-         live: ""
+         code: "https://github.com/ThomasAurelius/fm_space-tourism-website-main",
+         live: "https://thomasaurelius.com/projects/space/index.html"
       },
       {
          id: 2,
