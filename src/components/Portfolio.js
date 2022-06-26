@@ -5,11 +5,19 @@ import dine from '../assets/fm_dine_landscape.png'
 import blogr from '../assets/fm_blogr_landscape_thumbnail.png'
 import loop from '../assets/fm_loop_landscape.png'
 import malarki from '../assets/malarki-landscape.png'
+import webstore from '../assets/webstore_landscape.png'
 
 
 export default function Portfolio() {
 
    const portfolios = [
+      {
+         id: 10,
+         src: webstore,
+         alt: "Full Stack NextJS Webstore",
+         code: "https://github.com/ThomasAurelius/ecommerce",
+         live: "https://ecommerce-zeta-three.vercel.app/"
+      },
       {
          id: 1,
          src: space,
@@ -20,35 +28,35 @@ export default function Portfolio() {
       {
          id: 2,
          src: insure,
-         alt: "Example Insurance Website",
+         alt: "Responsive Insurance Website",
          code: "https://github.com/ThomasAurelius/fm_insure-landing-page-master",
          live: "https://thomasaurelius.github.io/fm_insure-landing-page-master/"
       },
       {
          id: 3,
          src: dine,
-         alt: "Example Restaurant Website",
+         alt: "Responsive Restaurant Website",
          code: "https://github.com/ThomasAurelius/fm_dine-restaurant-website",
          live: "https://thomasaurelius.github.io/fm_dine-restaurant-website/"
       },
       {
          id: 4,
          src: blogr,
-         alt: "Example Blog Website",
+         alt: "Responsive Blog Website",
          code: "https://github.com/ThomasAurelius/fm_blogr-landing-page-main",
          live: "https://thomasaurelius.github.io/fm_blogr-landing-page-main/"
       },
       {
          id: 5,
          src: loop,
-         alt: "Example Loopstudios Website",
+         alt: "Responsive VR Service Website",
          code: "https://github.com/ThomasAurelius/fm_loopstudios-landing-page-main",
          live: "https://thomasaurelius.github.io/fm_loopstudios-landing-page-main/"
       },
       {
          id: 6,
          src: malarki,
-         alt: "Example Software Website",
+         alt: "Responsive Software Website",
          code: "https://github.com/ThomasAurelius/malarki",
          live: "https://thomasaurelius.github.io/malarki/"
          
@@ -67,10 +75,13 @@ export default function Portfolio() {
             portfolios.map(({ id, alt,  src, code, live, icons }) => (
                
                   <div  key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-                     <img src={src} alt={alt} className='rounded-md duration-200 hover:scale-105'/>
-                     <div className='flex items-center justify-center'>
-                        <button className='w-1/2 px-6 py-0 m-1 duration-200 hover:scale-105'><a href={live}>Live Demo</a></button>
-                        <button className='w-1/2 px-6 py-0 m-1 duration-200 hover:scale-105'><a href={code}>Source Code</a></button>                        
+                     <div>
+                        <p className=''>{alt}</p>
+                        <img src={src} alt={alt} className='rounded-md duration-200 hover:scale-105'/>
+                        <div className='flex items-center justify-center'>
+                           <button className='w-1/2 px-6 py-0 m-1 duration-200 hover:scale-105'><a href={live}>Live Demo</a></button>
+                           <button className='w-1/2 px-6 py-0 m-1 duration-200 hover:scale-105'><a href={code}>Source Code</a></button>
+                        </div>
                      </div>
                   </div>               
                ))
