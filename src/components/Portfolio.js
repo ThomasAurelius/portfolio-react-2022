@@ -26,13 +26,6 @@ export default function Portfolio() {
          live: "https://thomasaurelius.com/projects/space/index.html"
       },
       {
-         id: 2,
-         src: insure,
-         alt: "Responsive Insurance Website",
-         code: "https://github.com/ThomasAurelius/fm_insure-landing-page-master",
-         live: "https://thomasaurelius.github.io/fm_insure-landing-page-master/"
-      },
-      {
          id: 3,
          src: dine,
          alt: "Responsive Restaurant Website",
