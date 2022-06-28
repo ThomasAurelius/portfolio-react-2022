@@ -11,6 +11,8 @@ import node from '../assets/node.png'
 import express from '../assets/express.png'
 import apollo from '../assets/apollo.png'
 import sass from '../assets/sass.png'
+import mongo from '../assets/mongodb.svg'
+import mui from '../assets/MUI.svg'
 
 export default function Experience() {
 
@@ -31,12 +33,13 @@ export default function Experience() {
          style: 'shadow-blue-600'
       },
       {
-         id: 5,
-         src: tailwind,
-         alt: "Tailwind badge",
-         title: "Tailwind",
-         style: 'shadow-sky-400'
+         id: 13,
+         src: mongo,
+         alt: "MongoDB badge",
+         title: "MongoDB",
+         style: 'shadow-green-600'
       },
+      
       {
          id: 6,
          src: nextjs,
@@ -78,6 +81,20 @@ export default function Experience() {
          alt: "Apollo badge",
          title: "Apollo",
          style: 'shadow-blue-800'
+      },
+      {
+         id: 14,
+         src: mui,
+         alt: "Material UI badge",
+         title: "Material UI",
+         style: 'shadow-blue-400'
+      },
+      {
+         id: 5,
+         src: tailwind,
+         alt: "Tailwind badge",
+         title: "Tailwind",
+         style: 'shadow-sky-400'
       },
       {
          id: 12,

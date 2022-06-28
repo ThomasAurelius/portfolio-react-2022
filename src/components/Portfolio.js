@@ -2,7 +2,7 @@ import React from 'react'
 import space from '../assets/fm_space_landscape.png'
 import insure from '../assets/fm_insure_landscape.png'
 import dine from '../assets/fm_dine_landscape.png'
-import blogr from '../assets/fm_blogr_landscape_thumbnail.png'
+import expense from '../assets/react_expense_tracker_landscape.png'
 import loop from '../assets/fm_loop_landscape.png'
 import malarki from '../assets/malarki-landscape.png'
 import webstore from '../assets/webstore_landscape.png'
@@ -19,6 +19,13 @@ export default function Portfolio() {
          live: "https://ecommerce-zeta-three.vercel.app/"
       },
       {
+         id: 11,
+         src: expense,
+         alt: "React Expense Tracker",
+         code: "https://github.com/ThomasAurelius/react-expense-tracker",
+         live: "https://react-expense-tracker-omega.vercel.app/"
+      },
+      {
          id: 1,
          src: space,
          alt: "Space Tourism Website",
@@ -32,14 +39,7 @@ export default function Portfolio() {
          code: "https://github.com/ThomasAurelius/fm_dine-restaurant-website",
          live: "https://thomasaurelius.github.io/fm_dine-restaurant-website/"
       },
-      {
-         id: 4,
-         src: blogr,
-         alt: "Responsive Blog Website",
-         code: "https://github.com/ThomasAurelius/fm_blogr-landing-page-main",
-         live: "https://thomasaurelius.github.io/fm_blogr-landing-page-main/"
-      },
-      {
+            {
          id: 5,
          src: loop,
          alt: "Responsive VR Service Website",
