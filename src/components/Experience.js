@@ -23,7 +23,7 @@ export default function Experience() {
          src: javascript,
          alt: "Javascript badge",
          title: "Javascript",
-         style: 'shadow-yellow-500'
+         style: 'shadow-yellow-500',
       },
       {
          id: 4,
@@ -31,56 +31,6 @@ export default function Experience() {
          alt: "React badge",
          title: "React",
          style: 'shadow-blue-600'
-      },
-      {
-         id: 13,
-         src: mongo,
-         alt: "MongoDB badge",
-         title: "MongoDB",
-         style: 'shadow-green-600'
-      },
-      
-      {
-         id: 6,
-         src: nextjs,
-         alt: "NextJS badge",
-         title: "Next JS",
-         style: 'shadow-white'
-      },
-      {
-         id: 7,
-         src: graphql,
-         alt: "Graph QL badge",
-         title: "Graph QL",
-         style: 'shadow-pink-600'
-      },
-      {
-         id: 8,
-         src: github,
-         alt: "Github badge",
-         title: "Git & Github",
-         style: 'shadow-gray-400'
-      },
-      {
-         id: 9,
-         src: node,
-         alt: "NodeJS badge",
-         title: "NodeJs",
-         style: 'shadow-green-300'
-      },
-      {
-         id: 10,
-         src: express,
-         alt: "Express badge",
-         title: "Express",
-         style: 'shadow-gray-400'
-      },
-      {
-         id: 11,
-         src: apollo,
-         alt: "Apollo badge",
-         title: "Apollo",
-         style: 'shadow-blue-800'
       },
       {
          id: 14,
@@ -117,6 +67,57 @@ export default function Experience() {
          title: "CSS",
          style: 'shadow-blue-500'
       },
+      {
+         id: 8,
+         src: github,
+         alt: "Github badge",
+         title: "Git & Github",
+         style: 'shadow-gray-400'
+      },
+      {
+         id: 6,
+         src: nextjs,
+         alt: "NextJS badge",
+         title: "Next JS",
+         style: 'shadow-white'
+      },
+      {
+         id: 7,
+         src: graphql,
+         alt: "Graph QL badge",
+         title: "Graph QL",
+         style: 'shadow-pink-600'
+      },
+      
+      {
+         id: 9,
+         src: node,
+         alt: "NodeJS badge",
+         title: "NodeJs",
+         style: 'shadow-green-300'
+      },
+      {
+         id: 10,
+         src: express,
+         alt: "Express badge",
+         title: "Express",
+         style: 'shadow-gray-400'
+      },
+      {
+         id: 11,
+         src: apollo,
+         alt: "Apollo badge",
+         title: "Apollo",
+         style: 'shadow-blue-800'
+      },
+      {
+         id: 13,
+         src: mongo,
+         alt: "MongoDB badge",
+         title: "MongoDB",
+         style: 'shadow-green-600'
+      },
+      
    ]
 
   return (
