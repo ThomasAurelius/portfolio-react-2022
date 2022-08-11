@@ -12,6 +12,10 @@
   }
 }
 
+.inline {
+  display: inline;
+}
+
 .navlogo {
   width: 200px;
 }
