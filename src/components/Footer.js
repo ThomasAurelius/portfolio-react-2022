@@ -1,7 +1,8 @@
 import React from 'react'
 
-import { FaGithub, FaLinkedin, FaInstagram, FaCodepen } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
 import { SiCodewars } from 'react-icons/si';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 export default function Footer() {
   return (
@@ -17,8 +18,8 @@ export default function Footer() {
 					</a>
 				</li>
 				<li className="social-list_item md:px-4">
-					<a className="social-list_link" href="https://codepen.io/ThomasAurelius/" target="_blank" rel="noreferrer">
-						<FaCodepen size={50} />
+					<a className="social-list_link" href="https://thomasaurelius.com/thomas_gooch_resume_080622.pdf"  download={true} rel="noreferrer">
+						<BsFillPersonLinesFill size={50} />
 					</a>
 				</li>									
 				<li className="social-list_item">

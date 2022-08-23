@@ -55,7 +55,7 @@ const links = [
          <> Resume <BsFillPersonLinesFill size={30} />  
          </>
       ),
-      href: '/thomas_gooch_resume_080622.pdf',
+      href: 'https://thomasaurelius.com/thomas_gooch_resume_080622.pdf',
       style: 'rounded-br-md',
       download: true,
    }
