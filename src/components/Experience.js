@@ -11,7 +11,7 @@ import node from '../assets/node.png'
 import express from '../assets/express.png'
 import apollo from '../assets/apollo.png'
 import sass from '../assets/sass.png'
-import mongo from '../assets/mongodb.svg'
+import mongo from '../assets/mongodb.png'
 import mui from '../assets/MUI.svg'
 
 export default function Experience() {
