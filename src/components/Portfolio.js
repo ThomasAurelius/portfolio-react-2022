@@ -62,7 +62,7 @@ export default function Portfolio() {
          <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4 border-gray-500 '>Portfolio</p>            
          </div>
-         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 m-1' >
+         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm: px-2  md:px-8 m-1' >
 
          {
             portfolios.map(({ id, alt,  src, code, live, icons }) => (

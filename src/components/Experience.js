@@ -128,7 +128,7 @@ export default function Experience() {
             <p className='py-6'>These are the primary technologies that I work with, but I am always learning and looking to add new technologies to my experience.</p>
          </div>   
 
-         <div className='w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0'>
+         <div className='w-full grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-6 text-center py-8 px-12 sm:px-0'>
          {technologies.map(({ id, src, alt, title, style}) => (
             <div 
                key={id} 

@@ -14,27 +14,27 @@ export default function Footer() {
 			<ul className="social-list my-4">
 				<li className="social-list_item">
 					<a className="social-list_link" href="https://www.codewars.com/users/ThomasAurelius" target="_blank" rel="noreferrer">
-						<SiCodewars size={50} />
+						<SiCodewars size={40} />
 					</a>
 				</li>
 				<li className="social-list_item md:px-4">
 					<a className="social-list_link" href="https://thomasaurelius.com/thomas_gooch_resume_080622.pdf"  download={true} rel="noreferrer">
-						<BsFillPersonLinesFill size={50} />
+						<BsFillPersonLinesFill size={40} />
 					</a>
 				</li>									
 				<li className="social-list_item">
 					<a className="social-list_link" href="https://www.linkedin.com/in/thomasgooch/" target="_blank" rel="noreferrer">
-						<FaLinkedin size={50} />
+						<FaLinkedin size={40} />
 					</a>
 				</li>
 				<li className="social-list_item md:px-4">
 					<a className="social-list_link" href="https://github.com/ThomasAurelius" target="_blank"rel="noreferrer">
-						<FaGithub size={50} />
+						<FaGithub size={40} />
 					</a>
 				</li>
 				<li className="social-list_item">
 					<a className="social-list_link" href="https://instagram.com/thomasofaurelius" target="_blank"rel="noreferrer">
-						<FaInstagram size={50} />
+						<FaInstagram size={40} />
 					</a>
 				</li>
 			</ul>
