@@ -40,7 +40,7 @@ export default function Footer() {
 			</ul>
 
 			<div className="final">
-				<small><span>&copy;</span> <strong>Thomas Aurelius </strong></small>
+				<small><span>&copy;</span> <strong>Thomas Aurelius aka Thomas Gooch </strong></small>
 			</div>
 		</article>
     
