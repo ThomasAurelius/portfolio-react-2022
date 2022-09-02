@@ -7,7 +7,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 export default function Footer() {
   return (
     <footer>   
-      <article class="footer bg-gradient-to-b from-gray-800 to-black text-white  lg:px-12">
+      <article class="footer bg-gradient-to-b to-gray-800 from-black text-white  lg:px-12">
 
 			<h3 className='font-bold'>Contact me!</h3>
 			<a href="mailto:thomas.aurelius.widmer@gmail.com" className="footer_link  md:text-2xl ">thomas.aurelius.widmer@gmail.com</a>

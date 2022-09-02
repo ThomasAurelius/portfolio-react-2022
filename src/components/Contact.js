@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <section name="contact" className='w-full h-full bg-gradient-to-b from-black to-gray-800 p-4 text-white  lg:px-12'>
+    <section name="contact" id='contact' className='w-full h-full bg-gradient-to-b to-black from-gray-800 p-4 text-white  lg:px-12'>
       <article className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
          <div className='pb-4'>
             <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Contact</p>
@@ -22,6 +22,9 @@ export default function Contact() {
                <button className='text-white accent-color px-6 py-3 my-8 mx-auto flex items bg-center rounded-md hover:scale-110'>Submit</button>            
             </form>
          </div>
+         
+
+
       </article>
     </section>
   )
