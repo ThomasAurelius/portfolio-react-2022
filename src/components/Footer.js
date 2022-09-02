@@ -10,7 +10,7 @@ export default function Footer() {
       <article class="footer bg-gradient-to-b to-gray-800 from-black text-white  lg:px-12">
 
 			<h3 className='font-bold'>Contact me!</h3>
-			<a href="mailto:thomas.aurelius.widmer@gmail.com" className="footer_link  md:text-2xl ">thomas.aurelius.widmer@gmail.com</a>
+			<a href="mailto:thomas.e.gooch@gmail.com" className="footer_link  md:text-2xl ">thomas.e.gooch@gmail.com</a>
 			<ul className="social-list my-4">
 				<li className="social-list_item">
 					<a className="social-list_link" href="https://www.codewars.com/users/ThomasAurelius" target="_blank" rel="noreferrer">
@@ -40,7 +40,7 @@ export default function Footer() {
 			</ul>
 
 			<div className="final">
-				<small><span>&copy;</span> <strong>Thomas Aurelius aka Thomas Gooch </strong></small>
+				<small><span>&copy;</span> <strong> Thomas Gooch / Thomas Aurelius </strong></small>
 			</div>
 		</article>
     

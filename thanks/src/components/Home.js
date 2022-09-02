@@ -12,7 +12,7 @@ export default function Home() {
             <h2 className='text-4xl sm:text-7xl px-4 font-bold text-white'>Thank you for contacting me!</h2>
             <p className='text-gray-500 text-2xl py-4 px-4 max-w-md self-end'>I will be in touch shortly!</p>
             <div className="self-center">
-               <a href="https://thomasaurelius.com/">
+               <a href="https://thomasgooch.dev/">
 
                   <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md accent-color cursor-pointer  '>
                      Home

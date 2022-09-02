@@ -2,7 +2,6 @@ import React from 'react'
 import { BsArrowRight } from 'react-icons/bs'
 import { Link } from 'react-scroll'
 import Typewriter from 'typewriter-effect';
-import herologo from '../assets/herologo.png'
 
 
 export default function Home() {
@@ -10,7 +9,7 @@ export default function Home() {
     <section name="home" className='home-section h-full w-full bg-gradient-to-b from-black via-black to-gray-800 text-white pt-20  lg:px-12 md:pt-60 text-center md:text-right' >
       <article className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row xs:text-center'>
          <div className='flex flex-col justify-center h-full'>
-         <img src={herologo} alt="logo" className='heroTitle pb-8 xs:pb-2 self-center' />
+         <h1 className='text-center text-6xl pb-3'>Thomas Gooch</h1>
             <h2 className='text-3xl sm:text-6xl px-4 font-bold text-white text-center'>
             
             <Typewriter
