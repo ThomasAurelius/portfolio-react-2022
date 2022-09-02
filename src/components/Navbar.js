@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa'
 import  { Link } from 'react-scroll';
-import logo from "../assets/Logo Asset 3 - white.png"
+import logo from "../assets/"
 
 
 
