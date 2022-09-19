@@ -1,6 +1,6 @@
 import React from 'react'
 import space from '../assets/fm_space_landscape.png'
-import insure from '../assets/fm_insure_landscape.png'
+
 import dine from '../assets/fm_dine_landscape.png'
 import expense from '../assets/react_expense_tracker_landscape.png'
 import loop from '../assets/fm_loop_landscape.png'

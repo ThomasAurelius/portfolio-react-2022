@@ -66,7 +66,7 @@ const links = [
       <ul>
       {links.map(({ id, child, href, style, download }) => (
          <li key={id}
-            className={'flex justify-between items-center w-36 h-12 px-3 bg-accent ml-[-90px] hover:ml-[-1px] hover:rounded-md duration-300' + " " + style}>
+            className={"flex justify-between items-center w-36 h-12 px-3 bg-accent ml-[-90px] hover:ml-[-1px] hover:rounded-md duration-300" + " " + style}>
             <a href={href} 
                className='flex justify-between items-center text-white w-full'
                download={download}

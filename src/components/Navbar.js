@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa'
 import  { Link } from 'react-scroll';
-import logo from "../assets/"
+import logo from "../assets/compassicon.png";
 
 
 
