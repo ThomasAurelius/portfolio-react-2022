@@ -18,7 +18,7 @@ export default function Footer() {
 					</a>
 				</li>
 				<li className="social-list_item md:px-4">
-					<a className="social-list_link" href="https://thomasgooch.dev/thomas_gooch_resume_091622.pdf"  download={true} rel="noreferrer">
+					<a className="social-list_link" href="https://thomasgooch.dev/thomas_gooch_resume_110722.pdf"  download={true} rel="noreferrer">
 						<BsFillPersonLinesFill size={40} />
 					</a>
 				</li>									
