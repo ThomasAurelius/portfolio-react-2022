@@ -119,7 +119,7 @@ export default function About2() {
                   <span className='tooltiptext'>Heroku</span>
                 </div>
                 
-              </div>
+              </div> 
            </div>
          </div>
          <div className='px-4'>
