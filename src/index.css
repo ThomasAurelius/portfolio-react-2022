@@ -74,6 +74,13 @@ footer h3 {
   text-decoration: underline;
 }
 
+
+.self-center {
+  display: flex;
+  align-self: center;
+  gap: 10px;
+}
+
 .social-list {
   list-style: none;
   outline: none;

@@ -2,7 +2,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
-import { SiCodewars } from 'react-icons/si';
+
 
 export default function SocialLinks() {
 
@@ -24,14 +24,7 @@ const links = [
       ),
       href: 'https://github.com/ThomasAurelius',
    },
-   {
-      id: 3,
-      child: (
-         <> Codewars <SiCodewars size={30} />  
-         </>
-      ),
-      href: 'https://www.codewars.com/users/ThomasAurelius'
-   },
+  
    {
       id: 4,
       child: (
@@ -46,7 +39,7 @@ const links = [
          <> Mail <HiOutlineMail size={30} />  
          </>
       ),
-      href: 'mailto:thomas.aurelius.widmer@gmail.com'
+      href: 'mailto:thomas.e.gooch@gmail.com'
    },
    
    {
@@ -55,7 +48,7 @@ const links = [
          <> Resume <BsFillPersonLinesFill size={30} />  
          </>
       ),
-      href: 'https://thomasgooch.dev/thomas_gooch_resume_110722.pdf',
+      href: 'https://thomasgooch.dev/thomas_gooch_resume_01302024.pdf',
       style: 'rounded-br-md',
       download: true,
    }
