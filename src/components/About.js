@@ -11,7 +11,7 @@ export default function About() {
          
          </p>
          <br />
-         <p className='text-2xl mt-5 leading-9'>In my daily life, I am a father of two amazing teenagers, as well as a dog dad to a wonderfully sweet Dachshund, named Jackson. I enjoy gardening, gaming(board, card  and console), painting miniatures as well
+         <p className='text-2xl mt-5 leading-9'>In my daily life, I am a father of two amazing teenagers, as well as a dog dad to 2 wonderfully sweet Dachshunds, named Jackson, and Bernie. I enjoy gardening, gaming(board, card  and console), painting miniatures as well
 						as reading, and tinkering with electronics.</p>
             <br />
             <p className='text-2xl mt-5 leading-9 inline'>I am currently very happily employed and not looking for full time opportunities. I am open for select freelance opportunities that pique my interest and provide a challenge.</p>
