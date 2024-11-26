@@ -8,15 +8,15 @@ export default function Footer() {
     <footer>   
       <article className="footer bg-gradient-to-b to-gray-800 from-black text-white  lg:px-12">
 
-			<h3 className='font-bold'>Contact me!</h3>
+			<h3 className='font-bold'>Contact us!</h3>
 			<a href="mailto:thomas.e.gooch@gmail.com" className="footer_link  md:text-2xl ">thomas.e.gooch@gmail.com</a>
 			<ul className="social-list my-4">
 				
-				<li className="social-list_item md:px-4">
-					<a className="social-list_link" href="https://thomasgooch.dev/thomas_e_gooch_resume_02172024.pdf"  download={true} rel="noreferrer">
-						<BsFillPersonLinesFill size={40} />
-					</a>
-				</li>									
+				// <li className="social-list_item md:px-4">
+				// 	<a className="social-list_link" href="https://thomasgooch.dev/thomas_e_gooch_resume_02172024.pdf"  download={true} rel="noreferrer">
+				// 		<BsFillPersonLinesFill size={40} />
+				// 	</a>
+				// </li>									
 				<li className="social-list_item">
 					<a className="social-list_link" href="https://www.linkedin.com/in/thomasgooch/" target="_blank" rel="noreferrer">
 						<FaLinkedin size={40} />
@@ -27,15 +27,15 @@ export default function Footer() {
 						<FaGithub size={40} />
 					</a>
 				</li>
-				<li className="social-list_item">
-					<a className="social-list_link" href="https://instagram.com/thomasofaurelius" target="_blank"rel="noreferrer">
-						<FaInstagram size={40} />
-					</a>
-				</li>
+				// <li className="social-list_item">
+				// 	<a className="social-list_link" href="https://instagram.com/thomasofaurelius" target="_blank"rel="noreferrer">
+				// 		<FaInstagram size={40} />
+				// 	</a>
+				// </li>
 			</ul>
 
 			<div className="final">
-				<small><span>&copy; 2024</span> <strong> Thomas Gooch </strong></small>
+				<small><span>&copy; 2024</span> <strong> Thomas Gooch Web Development </strong></small>
 			</div>
 		</article>
     
