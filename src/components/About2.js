@@ -18,7 +18,7 @@ import postman from "../assets/postman.png";
 import vscode from "../assets/vscode.png";
 import vercel from "../assets/vercel.png";
 import heroku from "../assets/heroku.png";
-import ruby from "../assets/ruby-on-rails-icon-17.jpg";
+import ruby from "../assets/ruby-on-rails-icon-17.png";
 
 export default function About2() {
 	return (
