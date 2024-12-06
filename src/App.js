@@ -9,21 +9,20 @@ import Footer from "./components/Footer";
 import About2 from "./components/About2";
 
 function App() {
-  return (
-    <main className="App">
-      <Navbar />
-      <Home />
-      <Portfolio />
-       
-      <About2 />   
-      
-      <Contact />
-      <Footer />
+	return (
+		<main className="App">
+			<Navbar />
+			<Home />
 
-      <SocialLinks />
+			<About2 />
+			<Portfolio />
 
-    </main>
-  );
+			<Contact />
+			<Footer />
+
+			<SocialLinks />
+		</main>
+	);
 }
 
 export default App;

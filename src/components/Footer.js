@@ -7,7 +7,7 @@ export default function Footer() {
 	return (
 		<footer>
 			<article className="footer bg-gradient-to-b to-gray-800 from-black text-white  lg:px-12">
-				<h3 className="font-bold">Contact us!</h3>
+				<h3 className="font-bold">Contact me!</h3>
 				<a
 					href="mailto:thomas.e.gooch@gmail.com"
 					className="footer_link  md:text-2xl "

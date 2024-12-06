@@ -24,7 +24,7 @@ export default function About2() {
 	return (
 		<section
 			name="about"
-			className="w-full h-full bg-gradient-to-b to-gray-800 from-black text-white pb-20 lg:px-12 "
+			className="bg-gradient-to-b to-black from-gray-800 w-full text-white md:h-full  pt-8 pb-20 lg:px-12"
 		>
 			<article className="max-w-screen-lg p-4 mx-auto  justify-center w-full h-full  ">
 				<div className="pb-8">
@@ -130,26 +130,62 @@ export default function About2() {
 				</div>
 				<div className="px-4">
 					<p className="text-1xl mt-5 leading-2">
-						{" "}
 						I am passionate about clean UI and intuitive user experiences.
+						I am a big believer in the{" "}
+						<a
+							href="https://en.wikipedia.org/wiki/The_Four_Agreements"
+							target="_blank"
+							className="text-blue-600"
+							rel="noreferrer"
+						>
+							Four Agreements.{" "}
+						</a>
 						I have a strong leadership background and enjoy mentoring
-						other developers, and supporting the dev community. As a
-						process improvement evangelist, I deeply believe in the power
-						of leaving everything better than I found it, especially code.
+						other developers, and supporting the dev community as an
+						organizer for two meetup groups,{" "}
+						<a
+							href="https://www.meetup.com/Free-Code-Camp-Austin"
+							className="text-blue-600"
+							target="_blank"
+							rel="noreferrer"
+						>
+							FreeCodeCamp Austin
+						</a>
+						, and{" "}
+						<a
+							href="https://www.meetup.com/code-coop-austin"
+							target="_blank"
+							className="text-blue-600"
+							rel="noreferrer"
+						>
+							Code CoOp Austin
+						</a>
+						. As a process improvement evangelist, I deeply believe in the
+						power of leaving everything better than I found it, especially
+						code.
 					</p>
 					<br />
 					<p className="text-1xl mt-5 leading-2">
-						In my daily life, I am a father of two amazing teenagers, as
-						well as a dog dad to a wonderfully sweet Dachshund, named
-						Jackson, and a pint sized terror of a Dachshund named Bernie.
-						I enjoy gardening, gaming(board, card and console), painting
-						miniatures as well as reading, and tinkering with electronics.
+						A peek in my{" "}
+						<a
+							href="https://instagram.com/thomasofaurelius"
+							target="_blank"
+							className="text-blue-600"
+							rel="noreferrer"
+						>
+							Instagram
+						</a>{" "}
+						will show you a slice of my daily life. I am a father of two
+						amazing teenagers, as well as a dog dad to a wonderfully sweet
+						Dachshund, named Jackson, and a pint sized terror of a
+						Dachshund named Bernie. I enjoy gardening, gaming(board, card
+						and console), painting miniatures as well as reading, and
+						tinkering with electronics.
 					</p>
 					<br />
 					<p className="text-1xl mt-5 leading-2 inline">
 						I am currently very happily employed and not looking for full
-						time opportunities. I am open for select contract
-						opportunities that pique my interest and provide a challenge.{" "}
+						time opportunities.{" "}
 					</p>
 				</div>
 			</article>

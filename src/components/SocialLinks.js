@@ -7,52 +7,62 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 export default function SocialLinks() {
 
 const links = [
-   {
-      id: 1,
-      child: (
-         <> LinkedIn <FaLinkedin size={30} />  
-         </>
-      ),
-      href: 'https://www.linkedin.com/in/thomasgooch/',
-      style: 'rounded-tr-md'
-   },
-   {
-      id: 2,
-      child: (
-         <> Github <FaGithub size={30} />  
-         </>
-      ),
-      href: 'https://github.com/ThomasAurelius',
-   },
-  
-   {
-      id: 4,
-      child: (
-         <> Instagram <FaInstagram size={30} />  
-         </>
-      ),
-      href: 'https://instagram.com/thomasofaurelius'
-   },
-   {
-      id: 5,
-      child: (
-         <> Mail <HiOutlineMail size={30} />  
-         </>
-      ),
-      href: 'mailto:thomas.e.gooch@gmail.com'
-   },
-   
-   {
-      id: 6,
-      child: (
-         <> Resume <BsFillPersonLinesFill size={30} />  
-         </>
-      ),
-      href: 'https://thomasgooch.dev/thomas_e_gooch_resume_02172024.pdf',
-      style: 'rounded-br-md',
-      download: true,
-   }
-]
+	{
+		id: 1,
+		child: (
+			<>
+				{" "}
+				LinkedIn <FaLinkedin size={30} />
+			</>
+		),
+		href: "https://www.linkedin.com/in/thomasgooch/",
+		style: "rounded-tr-md",
+	},
+	{
+		id: 2,
+		child: (
+			<>
+				{" "}
+				Github <FaGithub size={30} />
+			</>
+		),
+		href: "https://github.com/ThomasAurelius",
+	},
+
+	{
+		id: 4,
+		child: (
+			<>
+				{" "}
+				Instagram <FaInstagram size={30} />
+			</>
+		),
+		href: "https://instagram.com/thomasofaurelius",
+	},
+	{
+		id: 5,
+		child: (
+			<>
+				{" "}
+				Mail <HiOutlineMail size={30} />
+			</>
+		),
+		href: "mailto:thomas.e.gooch@gmail.com",
+	},
+
+	{
+		id: 6,
+		child: (
+			<>
+				{" "}
+				Resume <BsFillPersonLinesFill size={30} />
+			</>
+		),
+		href: "https://thomasgooch.dev/Thomas+E.+Gooch+Resume+11242024.pdf",
+		style: "rounded-br-md",
+		download: true,
+	},
+];
 
   return (
     <section className='hidden lg:flex flex-col top-[35%] left-0 fixed '>
