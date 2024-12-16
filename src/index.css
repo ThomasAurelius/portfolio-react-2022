@@ -115,7 +115,7 @@ footer h3 {
 .card_content {
 	text-align: center;
 	/* position: relative; */
-	padding: 5em;
+	padding: 2em;
 	transition: transform 1s;
 	transform-style: preserve-3d;
 	height: 250px;
@@ -128,7 +128,7 @@ footer h3 {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	padding: 2em;
+	padding: 1em;
 	backface-visibility: hidden;
 }
 
