@@ -142,16 +142,7 @@ export default function About2() {
 						</a>
 						<br></br>I have a strong leadership background and enjoy
 						mentoring other developers, and supporting the dev community
-						as an organizer for two meetup groups,{" "}
-						<a
-							href="https://www.meetup.com/Free-Code-Camp-Austin"
-							className="text-blue-600"
-							target="_blank"
-							rel="noreferrer"
-						>
-							FreeCodeCamp Austin
-						</a>
-						, and{" "}
+						as an organizer for the meetup group{" "}
 						<a
 							href="https://www.meetup.com/code-coop-austin"
 							target="_blank"
