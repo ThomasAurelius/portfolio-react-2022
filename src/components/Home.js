@@ -16,8 +16,8 @@ export default function Home() {
 						<Typewriter
 							options={{
 								strings: [
-									"Full-Stack Web Developement",
-									"Front-End Web Developement",
+									"Full-Stack Web Developer",
+									"Front-End Web Developer",
 									"Miracle Technologist",
 								],
 								autoStart: true,
@@ -28,7 +28,7 @@ export default function Home() {
 					<p className="text-gray-400 py-4 px-4 max-w-xlg self-center text-center sm:text-3xl text-2xl ">
 						I create unique and modern web experiences using the internets
 						most powerful and proven technologies. From front-end splash
-						pages, to full featured database driven applications, I can
+						pages, to full-featured database driven applications, I can
 						deliver a world class experience for your audience.{" "}
 					</p>
 

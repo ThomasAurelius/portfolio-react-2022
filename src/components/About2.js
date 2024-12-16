@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../assets/ta-01.png";
+import photo from "../assets/tg02.jpg";
 import css from "../assets/css.png";
 import github from "../assets/github.png";
 import reactImg from "../assets/react.png";
@@ -129,7 +129,7 @@ export default function About2() {
 					</div>
 				</div>
 				<div className="px-4">
-					<p className="text-1xl mt-5 leading-2">
+					<p className="text-2xl mt-5 leading-2">
 						I am passionate about clean UI and intuitive user experiences.
 						I am a big believer in the{" "}
 						<a
@@ -140,9 +140,9 @@ export default function About2() {
 						>
 							Four Agreements.{" "}
 						</a>
-						I have a strong leadership background and enjoy mentoring
-						other developers, and supporting the dev community as an
-						organizer for two meetup groups,{" "}
+						<br></br>I have a strong leadership background and enjoy
+						mentoring other developers, and supporting the dev community
+						as an organizer for two meetup groups,{" "}
 						<a
 							href="https://www.meetup.com/Free-Code-Camp-Austin"
 							className="text-blue-600"
@@ -160,12 +160,22 @@ export default function About2() {
 						>
 							Code CoOp Austin
 						</a>
-						. As a process improvement evangelist, I deeply believe in the
-						power of leaving everything better than I found it, especially
-						code.
+						.<br></br> I own and operate{" "}
+						<a
+							href="https://midnightoil.software"
+							className="text-blue-600"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Midnight Oil Software LLC.
+						</a>
+						, a software development agency with 1 other developer. I do
+						all that work after hours.<br></br> As a process improvement
+						evangelist, I deeply believe in the power of leaving
+						everything better than I found it, especially code.
 					</p>
 					<br />
-					<p className="text-1xl mt-5 leading-2">
+					<p className="text-2xl mt-5 leading-2">
 						A peek in my{" "}
 						<a
 							href="https://instagram.com/thomasofaurelius"
@@ -183,9 +193,10 @@ export default function About2() {
 						tinkering with electronics.
 					</p>
 					<br />
-					<p className="text-1xl mt-5 leading-2 inline">
-						I am currently very happily employed and not looking for full
-						time opportunities.{" "}
+					<p className="text-2xl mt-5 leading-2 inline">
+						While I am very happily employed, my dream is to work fully
+						asyncronous and remote, so if you're looking for an async
+						remote developer, hit me up!{" "}
 					</p>
 				</div>
 			</article>
