@@ -6,7 +6,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 export default function Footer() {
 	return (
 		<footer>
-			<article className="footer bg-gradient-to-b to-gray-800 from-black text-white  lg:px-12">
+			<article className="footer bg-gradient-to-b to-black from-gray-800 text-white  lg:px-12">
 				<h3 className="font-bold">Contact me!</h3>
 				<a
 					href="mailto:thomas.e.gooch@gmail.com"
@@ -18,7 +18,7 @@ export default function Footer() {
 					<li className="social-list_item md:px-4">
 						<a
 							className="social-list_link"
-							href="https://thomasgooch.dev/Thomas+E.+Gooch+Resume+11242024.pdf"
+							href="https://thomasgooch.dev/Thomas+E.+Gooch+Resume+03022025.pdf"
 							download={true}
 							rel="noreferrer"
 						>

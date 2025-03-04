@@ -3,7 +3,7 @@ import space from "../assets/fm_space_landscape.png";
 import visitry from "../assets/visitry1.png";
 import dine from "../assets/fm_dine_landscape.png";
 import loop from "../assets/fm_loop_landscape.png";
-import malarki from "../assets/malarki-landscape.png";
+import nitrohood from "../assets/nitrohood.png";
 import webstore from "../assets/webstore_landscape.png";
 // import css from "../assets/css.png";
 // import github from "../assets/github.png";
@@ -27,6 +27,16 @@ import webstore from "../assets/webstore_landscape.png";
 
 export default function Portfolio() {
 	const portfolios = [
+		{
+			id: 6,
+			src: nitrohood,
+			alt: "NextJS Social Media Website",
+			site: "Live Demo",
+			type: "Source Code Not Available",
+			code: "/",
+			live: "https://main-smoky-six.vercel.app",
+			tech: "NextJS, Clerk, MongoDB, Firebase, HTML, CSS, JavaScript",
+		},
 		{
 			id: 10,
 			src: webstore,
@@ -77,16 +87,6 @@ export default function Portfolio() {
 			live: "https://thomasaurelius.github.io/fm_loopstudios-landing-page-main/",
 			tech: "HTML, CSS, JavaScript",
 		},
-		{
-			id: 6,
-			src: malarki,
-			alt: "Responsive Software Website",
-			site: "Live Demo",
-			type: "Source Code",
-			code: "https://github.com/ThomasAurelius/malarki",
-			live: "https://thomasaurelius.github.io/malarki/",
-			tech: "HTML, CSS, JavaScript",
-		},
 	];
 
 	return (
@@ -103,11 +103,7 @@ export default function Portfolio() {
 				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm: px-2  md:px-8 m-1">
 					{portfolios.map(
 						({ id, alt, src, code, live, type, site, tech, icons }) => (
-							<div
-								class="card"
-								key={id}
-								className="shadow-md shadow-gray-600 rounded-lg"
-							>
+							<div className="card" key={id}>
 								<div className="card_content">
 									<div className="card_front">
 										<div>
@@ -116,7 +112,7 @@ export default function Portfolio() {
 												<img
 													src={src}
 													alt={alt}
-													className="rounded-md duration-200 hover:scale-105"
+													className="rounded-md "
 												/>
 											</div>
 										</div>

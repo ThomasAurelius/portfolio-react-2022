@@ -20,6 +20,11 @@ export default function Navbar() {
 			link: "portfolio",
 		},
 		{
+			id: 6,
+			link: "testimonials",
+		},
+
+		{
 			id: 5,
 			link: "contact",
 		},
