@@ -32,7 +32,7 @@ export default function Home() {
 						deliver a world class experience for your audience.{" "}
 					</p>
 
-					<div className="self-center">
+					<div className="self-center heroButtons">
 						<Link to={"portfolio"} smooth duration={500}>
 							<button className="group text-white  px-6 py-3 my-2 flex items-center rounded-md accent-color cursor-pointer md:mb-40 ">
 								Portfolio

@@ -241,3 +241,67 @@ footer h3 {
 .about2-top-left li {
 	padding-block: 0.5rem;
 }
+
+
+@media screen and (max-width: 900px) {
+	.portfolio-card a {
+		width: 100%;
+		flex-direction: column;
+	}
+	
+	
+}
+
+@media screen and (max-width: 500px) {
+	
+	
+	.portfolio-img-card img {
+		width: 90vw;
+		height: auto;
+		margin: 0 auto
+	}
+
+	.portfolio-img-card {
+		width: 90vw;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	.portfolio-tech-card {
+		width: 90vw;
+		height: auto;
+		margin: 0 auto;
+	}
+	
+	.portfolio-tech-card p{
+		max-width: 90vw;
+		padding: 0.5em;
+	}
+
+	.portfolio-tech-card img {
+		width: 40px;
+	}
+	.portfolio-card .card_content {
+		padding: 1em;
+	}
+	
+	.portfolio-card .card_front,
+	.portfolio-card .card_back {
+		padding: 1em;
+	}
+	
+	.portfolio-card .card_front h3,
+	.portfolio-card .card_back h3 {
+		font-size: 1.5rem;
+	}
+	
+}
+
+@media screen and (max-width: 400px) {
+	.heroButtons {
+		display: flex;	
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
