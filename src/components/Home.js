@@ -19,6 +19,8 @@ export default function Home() {
 									"Full-Stack Web Developer",
 									"Front-End Web Developer",
 									"Miracle Technologist",
+									"Solutions Architect",
+									"Software Engineer",
 								],
 								autoStart: true,
 								loop: true,
@@ -26,10 +28,12 @@ export default function Home() {
 						/>
 					</h2>
 					<p className="text-gray-400 py-4 px-4 max-w-xlg self-center text-center sm:text-3xl text-2xl ">
-						I create unique and modern web experiences using the internets
-						most powerful and proven technologies. From front-end splash
-						pages, to full-featured database driven applications, I can
-						deliver a world class experience for your audience.{" "}
+						I craft innovative and modern web solutions that actively
+						solve your challenges using the internet’s most powerful and
+						proven technologies. Whether you need a striking front-end
+						landing page or a full-featured database-driven application, I
+						break down complex problems and deliver tailored, world-class
+						experiences for your audience.{" "}
 					</p>
 
 					<div className="self-center heroButtons">

@@ -79,10 +79,6 @@ export default function About2() {
 
 						<div className="technology-icons flex">
 							<div className="tooltip">
-								<img src={ruby} alt="ruby badge" />
-								<span className="tooltiptext">Ruby on Rails</span>
-							</div>
-							<div className="tooltip">
 								<img src={node} alt="node badge" />
 								<span className="tooltiptext">Node.js</span>
 							</div>
@@ -93,14 +89,6 @@ export default function About2() {
 							<div className="tooltip">
 								<img src={mongo} alt="mongo badge" />
 								<span className="tooltiptext">MongoDB</span>
-							</div>
-							<div className="tooltip">
-								<img src={graphql} alt="graphql badge" />
-								<span className="tooltiptext">GraphQL</span>
-							</div>
-							<div className="tooltip">
-								<img src={apollo} alt="apollo badge" />
-								<span className="tooltiptext">Apollo</span>
 							</div>
 						</div>
 						<p>Tools:</p>
@@ -140,9 +128,9 @@ export default function About2() {
 						>
 							Four Agreements.{" "}
 						</a>
-						<br></br>I have a strong leadership background and enjoy
-						mentoring other developers, and supporting the dev community
-						as an organizer for the meetup group{" "}
+						I have a strong leadership background and enjoy mentoring
+						other developers, and supporting the dev community as an
+						organizer for the meetup group{" "}
 						<a
 							href="https://www.meetup.com/code-coop-austin"
 							target="_blank"
