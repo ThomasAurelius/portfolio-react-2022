@@ -7,18 +7,15 @@ import html from "../assets/html.png";
 import tailwind from "../assets/tailwind.png";
 import javascript from "../assets/javascript.png";
 import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
 import node from "../assets/node.png";
 import express from "../assets/express2.png";
-import apollo from "../assets/apollo.png";
-import sass from "../assets/sass.png";
 import mongo from "../assets/mongodb.png";
 import mui from "../assets/MUI.svg";
 import postman from "../assets/postman.png";
 import vscode from "../assets/vscode.png";
 import vercel from "../assets/vercel.png";
 import heroku from "../assets/heroku.png";
-import ruby from "../assets/ruby-on-rails-icon-17.png";
+import sql from "../assets/sql.png";
 
 export default function About2() {
 	return (
@@ -33,7 +30,11 @@ export default function About2() {
 					</p>
 				</div>
 				<div className="about2-top flex gap-5 mx-auto justify-center content-center">
-					<img src={photo} className="selfie " alt="Thomas Gooch" />
+					<img
+						src={photo}
+						className="selfie rounded-xl"
+						alt="Thomas Gooch Full Stack Web Develeper in Austin Tx"
+					/>
 
 					<div className="flex technology-wrapper flex-col gap-3">
 						<p>Front End Technologies:</p>
@@ -70,10 +71,6 @@ export default function About2() {
 								<img src={mui} alt="mui badge" />
 								<span className="tooltiptext">Material UI</span>
 							</div>
-							<div className="tooltip">
-								<img src={sass} alt="sass badge" />
-								<span className="tooltiptext">Sass</span>
-							</div>
 						</div>
 						<p>Back End Technologies:</p>
 
@@ -89,6 +86,10 @@ export default function About2() {
 							<div className="tooltip">
 								<img src={mongo} alt="mongo badge" />
 								<span className="tooltiptext">MongoDB</span>
+							</div>
+							<div className="tooltip">
+								<img src={sql} alt="sql badge" />
+								<span className="tooltiptext">SQL</span>
 							</div>
 						</div>
 						<p>Tools:</p>

@@ -1,30 +1,9 @@
 import React from "react";
 
-import nitrohood from "../assets/nitrohood.png";
-import webstore from "../assets/webstore_landscape.png";
-
-import css from "../assets/css.png";
-import html from "../assets/html.png";
-import tailwind from "../assets/tailwind.png";
-import javascript from "../assets/javascript.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
-import node from "../assets/node.png";
-import express from "../assets/express2.png";
-import apollo from "../assets/apollo.png";
-import sass from "../assets/sass.png";
-import mongo from "../assets/mongodb.png";
-import mui from "../assets/MUI.svg";
-import postman from "../assets/postman.png";
-import vscode from "../assets/vscode.png";
-import vercel from "../assets/vercel.png";
-import heroku from "../assets/heroku.png";
-import ruby from "../assets/ruby-on-rails-icon-17.png";
-import clerk from "../assets/clerk.png";
-import firebase from "../assets/firebase.png";
-import stripe from "../assets/stripe.svg";
-import simply from "../assets/simply.png";
-import rescue from "../assets/rescue.png";
+import Modal1 from "./Modal1";
+import Modal2 from "./Modal2";
+import Modal3 from "./Modal3";
+import Modal4 from "./Modal4";
 
 export default function Portfolio() {
 	return (
@@ -38,183 +17,14 @@ export default function Portfolio() {
 						Portfolio
 					</p>
 				</div>
-				<div className="">
-					<section className="portfolio-card flex h-full border-white-1 justify-center items-center">
-						<a
-							className="flex justify-center items-center"
-							href="https://rescue-tau.vercel.app"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<div className="portfolio-img-card w-[400px] flex flex-col ">
-								<p className="flex text-center justify-center text-xl  text-white p-2">
-									Next.JS Dachshund Rescue
-								</p>
-								<img
-									src={rescue}
-									alt="NextJS Dachshund Rescue Website"
-									className="rounded-md w-[400px] duration-200 hover:scale-105"
-								/>
-							</div>
-							<div className="portfolio-tech-card flex flex-col justify-center items-center p-4">
-								<p className="text-2xl">Technologies Used:</p>
-								<div className="flex flex-wrap justify-center items-center gap-4 m-2">
-									<img className="w-16" src={nextjs} alt="NextJs" />
-									<img className="w-16" src={mongo} alt="MongoDB" />
+				<div className="flex flex-wrap gap-8 justify-center mx-auto content-center">
+					<Modal1 />
 
-									<img
-										className="w-16"
-										src={firebase}
-										alt="Firebase"
-									/>
-									<img
-										className="w-16"
-										src={tailwind}
-										alt="Tailwind"
-									/>
-								</div>
-								<div className="flex w-[400px] flex-col justify-center items-center p-2">
-									<p className="text-lg mb-4">
-										A Dachshund rescue website built with Next.js,
-										MongoDB, and Firebase, with PayPal integration.
-										The website features a user-friendly interface for
-										browsing available dogs, submitting adoption
-										applications, and managing user accounts. The
-										website is hosted on Vercel and uses Firebase for
-										image control, and mongoDB for data storage. Demo
-										account available on request.
-									</p>
-								</div>
-							</div>
-						</a>
-					</section>
-					<hr></hr>
-					<section className="portfolio-card flex h-full border-white-1 justify-center items-center">
-						<a
-							className="flex justify-center items-center"
-							href="https://main-smoky-six.vercel.app"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<div className="portfolio-img-card w-[400px] flex flex-col ">
-								<p className="flex text-center justify-center text-xl  text-white p-2">
-									Next.JS Social Media Website
-								</p>
-								<img
-									src={nitrohood}
-									alt="NextJS Social Media Website"
-									className="rounded-md w-[400px] duration-200 hover:scale-105"
-								/>
-							</div>
-							<div className="portfolio-tech-card flex flex-col justify-center items-center p-4">
-								<p className="text-2xl">Technologies Used:</p>
-								<div className="flex flex-wrap justify-center items-center gap-4 m-2">
-									<img className="w-16" src={nextjs} alt="NextJs" />
-									<img className="w-16" src={clerk} alt="Clerk" />
-									<img className="w-16" src={mongo} alt="MongoDB" />
-									<img
-										className="w-16"
-										src={firebase}
-										alt="Firebase"
-									/>
-									<img
-										className="w-16"
-										src={tailwind}
-										alt="Tailwind"
-									/>
-								</div>
-								<div className="flex w-[400px] flex-col justify-center items-center p-2">
-									<p className="text-lg mb-4">
-										A niche social media application for car
-										enthusiasts. Built with Next.Js, Clerk, MongoDB
-										and Firebase, hosted on Vercel. Future releases
-										will include payment integration and premium
-										features. Demo account available on request.
-									</p>
-								</div>
-							</div>
-						</a>
-					</section>
-					<hr></hr>
-					<section className="portfolio-card flex h-full border-white-1 justify-center items-center">
-						<a
-							className="flex justify-center items-center"
-							href="https://simplyroomyorganizing.com/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<div className="portfolio-img-card w-[400px] flex flex-col ">
-								<p className="flex text-center justify-center text-xl  text-white p-2">
-									Home Organizing Website for a client
-								</p>
-								<img
-									src={simply}
-									alt="Home Health Website"
-									className="rounded-md w-[400px] duration-200 hover:scale-105"
-								/>
-							</div>
-							<div className="portfolio-tech-card flex flex-col justify-center items-center p-4">
-								<p className="text-2xl">Technologies Used:</p>
-								<div className="flex flex-wrap justify-center items-center gap-4 m-2">
-									<img className="w-16" src={html} alt="HTML" />
-									<img className="w-16" src={css} alt="CSS" />
-									<img
-										className="w-16"
-										src={javascript}
-										alt="Javascript"
-									/>
-								</div>
-								<div className="flex w-[400px] flex-col justify-center items-center p-2">
-									<p className="text-lg mb-4">
-										A small business web page I made for a client,
-										over a weekend, in a rush as her old hosting was
-										expiring and she needed a new one. I used HTML,
-										CSS and Javascript to create a simple, yet
-										effective website for her home organizing
-										business. The website is hosted on GoDaddy.
-									</p>
-								</div>
-							</div>
-						</a>
-					</section>
-					<hr></hr>
-					<section className="portfolio-card flex h-full border-white-1 justify-center items-center">
-						<a
-							className="flex justify-center items-center"
-							href="https://visitry.com"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<div className="portfolio-img-card w-[400px] flex flex-col ">
-								<p className="flex text-center justify-center text-xl  text-white p-2">
-									Next.JS E-Commerce Webstore
-								</p>
-								<img
-									src={webstore}
-									alt="NextJS E-Commerce Website"
-									className="rounded-md w-[400px] duration-200 hover:scale-105"
-								/>
-							</div>
-							<div className="portfolio-tech-card flex flex-col justify-center items-center p-4">
-								<p className="text-2xl">Technologies Used:</p>
-								<div className="flex flex-wrap justify-center items-center gap-4 m-2">
-									<img className="w-16" src={nextjs} alt="NextJs" />
-									<img className="w-16" src={stripe} alt="Stripe" />
-									<img className="w-16" src={mongo} alt="MongoDB" />
-									<img className="w-16" src={express} alt="Express" />
-								</div>
-								<div className="flex w-[400px] flex-col justify-center items-center p-2">
-									<p className="text-lg mb-4">
-										A demo e-commerce webstore built with Next.js,
-										Stripe, Sanity CMS and MongoDB. Features include
-										product management, user authentication, and a
-										fully functional shopping cart. The webstore is
-										hosted on Vercel.
-									</p>
-								</div>
-							</div>
-						</a>
-					</section>
+					<Modal2 />
+
+					<Modal3 />
+
+					<Modal4 />
 				</div>
 			</article>
 		</section>

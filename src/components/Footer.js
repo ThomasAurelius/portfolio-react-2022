@@ -59,8 +59,7 @@ export default function Footer() {
 
 				<div className="final">
 					<small>
-						<span>&copy; 2024</span>{" "}
-						<strong> Thomas Gooch Web Development </strong>
+						<span>&copy; 2025</span>
 					</small>
 				</div>
 			</article>

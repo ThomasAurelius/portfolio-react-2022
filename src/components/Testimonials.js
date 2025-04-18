@@ -7,13 +7,13 @@ import amie from "../assets/amie2.jpg";
 const Testimonials = () => {
 	return (
 		<div className="w-full h-full bg-gradient-to-b to-black from-gray-800 p-4 text-white  lg:px-12">
-			<article className="max-w-screen-lg p-4 pt-10 mx-auto flex flex-col justify-center  h-full ">
+			<article className="max-w-screen-lg p-2 md:p-4 pt-10 mx-auto flex flex-col justify-center  h-full ">
 				<div>
 					<p className="text-4xl font-bold inline border-b-4  border-gray-500">
 						Testimonials
 					</p>
 				</div>
-				<div className="flex justify-center items-center gap-8 p-4">
+				<div className="flex pt-8 flex-col md:flex-row justify-center items-center gap-8 p-2 md:p-4">
 					<figure className="w-[100px] mb-4 d-flex align-items-center justify-content-center">
 						<div>
 							<img
@@ -43,7 +43,7 @@ const Testimonials = () => {
 						</p>
 					</blockquote>
 				</div>
-				<div className="flex justify-center items-center gap-8 p-4">
+				<div className="flex  flex-col md:flex-row justify-center items-center gap-8 p-4">
 					<figure className="w-[100px] mb-4 d-flex align-items-center justify-content-center">
 						<div>
 							<img
@@ -70,7 +70,7 @@ const Testimonials = () => {
 						</p>
 					</blockquote>
 				</div>
-				<div className="flex justify-center items-center gap-8 p-4">
+				<div className="flex flex-col md:flex-row justify-center items-center gap-8 p-4">
 					<figure className="w-[100px] mb-4 d-flex align-items-center justify-content-center">
 						<div>
 							<img
@@ -92,7 +92,7 @@ const Testimonials = () => {
 						</p>
 					</blockquote>
 				</div>
-				<div className="flex justify-center items-center gap-8 p-4">
+				<div className="flex flex-col md:flex-row justify-center items-center gap-8 p-4">
 					<figure className="w-[100px] mb-4 d-flex align-items-center justify-content-center">
 						<p className="text-2xl">Steve Sessa, Executive Director</p>
 					</figure>
@@ -110,7 +110,7 @@ const Testimonials = () => {
 						</p>
 					</blockquote>
 				</div>
-				<div className="flex justify-center items-center gap-8 p-4">
+				<div className="flex flex-col md:flex-row justify-center items-center gap-8 p-4">
 					<figure className="w-[100px] mb-4 d-flex align-items-center justify-content-center">
 						<div>
 							<img
@@ -131,7 +131,7 @@ const Testimonials = () => {
 						</p>
 					</blockquote>
 				</div>
-				<div className="flex justify-center items-center gap-8 p-4">
+				<div className="flex flex-col md:flex-row justify-center items-center gap-8 p-2 md:p-4">
 					<figure className="w-[100px] mb-4 d-flex align-items-center justify-content-center">
 						<p className="text-2xl">Jason Harding, Co-Founder</p>
 					</figure>

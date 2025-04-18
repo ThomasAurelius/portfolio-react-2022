@@ -1,18 +1,17 @@
 import React from "react";
 import { useEffect } from "react";
 import Modal from "react-modal";
-import tailwind from "../assets/tailwind.png";
-import nextjs from "../assets/nextjs.png";
-import mongo from "../assets/mongodb.png";
-import firebase from "../assets/firebase.png";
-import paypal from "../assets/paypal.png";
-import rescue from "../assets/rescue.png";
-import rescue1 from "../assets/rescue1.png";
-import rescue2 from "../assets/rescue2.png";
-import rescue3 from "../assets/rescue3.png";
-import rescue4 from "../assets/rescue4.png";
-import rescue5 from "../assets/rescue5.png";
-import rescue6 from "../assets/rescue6.png";
+import html from "../assets/html.png";
+import css from "../assets/css.png";
+import javascript from "../assets/javascript.png";
+import simply from "../assets/simply.png";
+import simply1 from "../assets/simply1.png";
+import simply2 from "../assets/simply2.png";
+import simply3 from "../assets/simply3.png";
+import simply4 from "../assets/simply4.png";
+import simply5 from "../assets/simply5.png";
+import simply6 from "../assets/simply6.png";
+
 import { Carousel, IconButton } from "@material-tailwind/react";
 
 const customStyles = {
@@ -54,23 +53,24 @@ export default function Modal1() {
 					<section className="portfolio-card flex flex-col lg:flex-row h-full border-white-1 justify-center items-center">
 						<div className="portfolio-img-card w-[400px] flex flex-col ">
 							<p className="flex text-center justify-center text-xl  text-white p-2">
-								Next.JS Dachshund Rescue
+								Home Organizing Service Site
 							</p>
 							<img
-								src={rescue}
-								alt="NextJS Dachshund Rescue Website"
+								src={simply}
+								alt="Home Organizaing Service Site"
 								className="rounded-md w-[400px] duration-200 hover:scale-105"
 							/>
 						</div>
 						<div className="portfolio-tech-card flex flex-col justify-center items-center p-4">
 							<p className="text-2xl">Technologies Used:</p>
 							<div className="flex flex-wrap justify-center items-center gap-4 m-2">
-								<img className="w-16" src={nextjs} alt="NextJs" />
-								<img className="w-16" src={mongo} alt="MongoDB" />
-
-								<img className="w-16" src={firebase} alt="Firebase" />
-								<img className="w-16" src={tailwind} alt="Tailwind" />
-								<img className="w-16" src={paypal} alt="PayPal" />
+								<img className="w-16" src={html} alt="HTML" />
+								<img className="w-16" src={css} alt="CSS" />
+								<img
+									className="w-16"
+									src={javascript}
+									alt="Javascript"
+								/>
 							</div>
 							<div className="flex w-[400px] flex-col justify-center items-center p-2">
 								<button className="flex gap-4 mb-4 bg-accent text-white px-4 py-2 rounded">
@@ -86,11 +86,11 @@ export default function Modal1() {
 				isOpen={isOpen}
 				onRequestClose={closeModal}
 				style={customStyles}
-				contentLabel="NitroHood"
+				contentLabel="Simply Roomy"
 			>
 				<div className="flex flex-col justify-center items-center p-4">
 					<h2 className="text-2xl font-bold mb-4">
-						Next.JS Dachshund Rescue
+						Home Organizing Site for a Client
 					</h2>
 					<Carousel
 						className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-md mb-4"
@@ -150,64 +150,63 @@ export default function Modal1() {
 						)}
 					>
 						<img
-							src={rescue}
-							alt="NextJS Dachshund Rescue Website"
+							src={simply}
+							alt="Home Organizing Site"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 						<img
-							src={rescue1}
-							alt="Dachshund Rescue Website"
+							src={simply1}
+							alt="Home Organizing Site"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 						<img
-							src={rescue2}
-							alt="NextJS Dachshund Rescue Website"
+							src={simply2}
+							alt="Home Organizing Site"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 						<img
-							src={rescue3}
-							alt="Dachshund Rescue Website"
+							src={simply3}
+							alt="Home Organizing Site"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 						<img
-							src={rescue4}
-							alt="NextJS Dachshund Rescue Website"
+							src={simply4}
+							alt="Home Organizing Site"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 						<img
-							src={rescue5}
-							alt="Dachshund Rescue Website"
+							src={simply5}
+							alt="Home Organizing Site"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 						<img
-							src={rescue6}
-							alt="Dachshund Rescue Website showing successful adoption"
+							src={simply6}
+							alt="Home Organizing Site"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 					</Carousel>
 					<p className="text-lg mb-4">
-						A Dachshund Rescue website built with Next.js and Tailwind CSS
-						with a PayPal integration. This site solves the adminstration
-						problem of a dachshund rescue organization by allowing users
-						to browse available dogs, submit adoption applications, and
-						manage user accounts. The website is hosted on Vercel and
-						powered by Firebase for image control, and mongoDB for data
-						storage.
+						A live small business web page I made for a client, over a
+						weekend, in a rush as her old hosting was expiring and she
+						needed a new one. I used HTML, CSS and Javascript to create a
+						simple, yet effective website for her home organizing
+						business. The website is hosted on GoDaddy.
+					</p>
+					<p>
+						NOTE** This is a live site and real business so please don't
+						spam her!
 					</p>
 					<div className="portfolio-tech-card flex flex-col justify-center items-center p-4">
 						<p className="text-2xl">Technologies Used:</p>
 						<div className="flex flex-wrap justify-center items-center gap-4 m-2">
-							<img className="w-16" src={nextjs} alt="NextJs" />
-							<img className="w-16" src={mongo} alt="MongoDB" />
-
-							<img className="w-16" src={firebase} alt="Firebase" />
-							<img className="w-16" src={tailwind} alt="Tailwind" />
-							<img className="w-16" src={paypal} alt="PayPal" />
+							<img className="w-16" src={html} alt="HTML" />
+							<img className="w-16" src={css} alt="CSS" />
+							<img className="w-16" src={javascript} alt="Javascript" />
 						</div>
 					</div>
 					<button className="flex gap-4 mb-4">
 						<a
-							href="https://rescue-tau.vercel.app/"
+							href="https://simplyroomyorganizing.com"
 							target="_blank"
 							rel="noopener noreferrer"
 						>

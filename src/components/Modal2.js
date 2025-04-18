@@ -5,14 +5,13 @@ import tailwind from "../assets/tailwind.png";
 import nextjs from "../assets/nextjs.png";
 import mongo from "../assets/mongodb.png";
 import firebase from "../assets/firebase.png";
-import paypal from "../assets/paypal.png";
-import rescue from "../assets/rescue.png";
-import rescue1 from "../assets/rescue1.png";
-import rescue2 from "../assets/rescue2.png";
-import rescue3 from "../assets/rescue3.png";
-import rescue4 from "../assets/rescue4.png";
-import rescue5 from "../assets/rescue5.png";
-import rescue6 from "../assets/rescue6.png";
+import nitrohood from "../assets/nitrohood.png";
+import nitrohood1 from "../assets/nitrohood1.png";
+import nitrohood2 from "../assets/nitrohood2.png";
+import nitrohood3 from "../assets/nitrohood3.png";
+import nitrohood4 from "../assets/nitrohood4.png";
+import nitrohood5 from "../assets/nitrohood5.png";
+import clerk from "../assets/clerk.png";
 import { Carousel, IconButton } from "@material-tailwind/react";
 
 const customStyles = {
@@ -54,11 +53,11 @@ export default function Modal1() {
 					<section className="portfolio-card flex flex-col lg:flex-row h-full border-white-1 justify-center items-center">
 						<div className="portfolio-img-card w-[400px] flex flex-col ">
 							<p className="flex text-center justify-center text-xl  text-white p-2">
-								Next.JS Dachshund Rescue
+								Next.JS Social Media Site
 							</p>
 							<img
-								src={rescue}
-								alt="NextJS Dachshund Rescue Website"
+								src={nitrohood}
+								alt="NextJS Social Media Website"
 								className="rounded-md w-[400px] duration-200 hover:scale-105"
 							/>
 						</div>
@@ -66,11 +65,10 @@ export default function Modal1() {
 							<p className="text-2xl">Technologies Used:</p>
 							<div className="flex flex-wrap justify-center items-center gap-4 m-2">
 								<img className="w-16" src={nextjs} alt="NextJs" />
+								<img className="w-16" src={clerk} alt="Clerk" />
 								<img className="w-16" src={mongo} alt="MongoDB" />
-
 								<img className="w-16" src={firebase} alt="Firebase" />
 								<img className="w-16" src={tailwind} alt="Tailwind" />
-								<img className="w-16" src={paypal} alt="PayPal" />
 							</div>
 							<div className="flex w-[400px] flex-col justify-center items-center p-2">
 								<button className="flex gap-4 mb-4 bg-accent text-white px-4 py-2 rounded">
@@ -90,7 +88,7 @@ export default function Modal1() {
 			>
 				<div className="flex flex-col justify-center items-center p-4">
 					<h2 className="text-2xl font-bold mb-4">
-						Next.JS Dachshund Rescue
+						Next.JS Social Media Site
 					</h2>
 					<Carousel
 						className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-md mb-4"
@@ -150,64 +148,57 @@ export default function Modal1() {
 						)}
 					>
 						<img
-							src={rescue}
-							alt="NextJS Dachshund Rescue Website"
+							src={nitrohood}
+							alt="NextJS Social Media Website"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 						<img
-							src={rescue1}
-							alt="Dachshund Rescue Website"
+							src={nitrohood1}
+							alt="NextJS Social Media  Website"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 						<img
-							src={rescue2}
-							alt="NextJS Dachshund Rescue Website"
+							src={nitrohood2}
+							alt="NextJS Social Media  Website"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 						<img
-							src={rescue3}
-							alt="Dachshund Rescue Website"
+							src={nitrohood3}
+							alt="NextJS Social Media  Website"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 						<img
-							src={rescue4}
-							alt="NextJS Dachshund Rescue Website"
+							src={nitrohood4}
+							alt="NextJS Social Media  Website"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 						<img
-							src={rescue5}
-							alt="Dachshund Rescue Website"
-							className="rounded-md w-[400px] duration-200 hover:scale-105"
-						/>
-						<img
-							src={rescue6}
-							alt="Dachshund Rescue Website showing successful adoption"
+							src={nitrohood5}
+							alt="NextJS Social Media Website"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 					</Carousel>
 					<p className="text-lg mb-4">
-						A Dachshund Rescue website built with Next.js and Tailwind CSS
-						with a PayPal integration. This site solves the adminstration
-						problem of a dachshund rescue organization by allowing users
-						to browse available dogs, submit adoption applications, and
-						manage user accounts. The website is hosted on Vercel and
-						powered by Firebase for image control, and mongoDB for data
-						storage.
+						A niche social media application for car enthusiasts. Offers
+						users a platform to showcase their car's custom build and
+						photos, connect with other users and sell cars/parts. Built
+						with Next.Js, Clerk, MongoDB and Firebase, hosted on Vercel.
+						Future releases will include payment integration and premium
+						features. Demo account available on request.
 					</p>
 					<div className="portfolio-tech-card flex flex-col justify-center items-center p-4">
 						<p className="text-2xl">Technologies Used:</p>
 						<div className="flex flex-wrap justify-center items-center gap-4 m-2">
 							<img className="w-16" src={nextjs} alt="NextJs" />
+							<img className="w-16" src={clerk} alt="Clerk" />
 							<img className="w-16" src={mongo} alt="MongoDB" />
-
 							<img className="w-16" src={firebase} alt="Firebase" />
 							<img className="w-16" src={tailwind} alt="Tailwind" />
-							<img className="w-16" src={paypal} alt="PayPal" />
 						</div>
 					</div>
 					<button className="flex gap-4 mb-4">
 						<a
-							href="https://rescue-tau.vercel.app/"
+							href="https://main-smoky-six.vercel.app/"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
