@@ -172,7 +172,7 @@ export default function Modal1() {
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 					</Carousel>
-					<p className="text-lg mb-4">
+					<p className="text-lg max-w-[800px]Will do! mb-4">
 						A demo e-commerce webstore built with Next.js, Stripe, Sanity
 						CMS and MongoDB. Features include product management, user
 						authentication, and a fully functional shopping cart. The

@@ -185,7 +185,7 @@ export default function Modal1() {
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 					</Carousel>
-					<p className="text-lg mb-4">
+					<p className="text-lg max-w-[800px] mb-4">
 						A Dachshund Rescue website built with Next.js and Tailwind CSS
 						with a PayPal integration. This site solves the adminstration
 						problem of a dachshund rescue organization by allowing users

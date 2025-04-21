@@ -178,7 +178,7 @@ export default function Modal1() {
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 					</Carousel>
-					<p className="text-lg mb-4">
+					<p className="text-lg max-w-[800px] mb-4">
 						A niche social media application for car enthusiasts. Offers
 						users a platform to showcase their car's custom build and
 						photos, connect with other users and sell cars/parts. Built

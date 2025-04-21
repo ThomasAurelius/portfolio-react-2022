@@ -185,7 +185,7 @@ export default function Modal1() {
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 					</Carousel>
-					<p className="text-lg mb-4">
+					<p className="text-lg max-w-[800px] mb-4">
 						A live small business web page I made for a client, over a
 						weekend, in a rush as her old hosting was expiring and she
 						needed a new one. I used HTML, CSS and Javascript to create a
