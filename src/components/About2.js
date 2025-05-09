@@ -16,6 +16,8 @@ import vscode from "../assets/vscode.png";
 import vercel from "../assets/vercel.png";
 import heroku from "../assets/heroku.png";
 import sql from "../assets/sql.png";
+import { BsArrowRight } from "react-icons/bs";
+import { Link } from "react-scroll";
 
 export default function About2() {
 	return (
@@ -169,6 +171,15 @@ export default function About2() {
 						asyncronous and remote, so if you're looking for a prolific
 						async remote developer, hit me up!{" "}
 					</p>
+
+					<Link to={"contact"} smooth duration={500}>
+						<button className="group text-white mt-6 mx-auto px-6 py-3 my-2 flex items-center rounded-md accent-color cursor-pointer md:mb-40 ">
+							Contact Me!
+							<span className="group-hover:rotate-90 duration-300 pl-1">
+								<BsArrowRight size={20} className="ml-1" />
+							</span>
+						</button>
+					</Link>
 				</div>
 			</article>
 		</section>
