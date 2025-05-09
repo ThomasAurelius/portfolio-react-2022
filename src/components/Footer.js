@@ -2,11 +2,12 @@ import React from "react";
 
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { AiOutlineSchedule } from "react-icons/ai";
 
 export default function Footer() {
 	return (
 		<footer>
-			<article className="footer bg-gradient-to-b to-black from-gray-800 text-white  lg:px-12">
+			<article className="footer bg-gradient-to-b to-gray-800 from-black text-white  lg:px-12">
 				<h3 className="font-bold">Contact me!</h3>
 				<a
 					href="mailto:thomas.e.gooch@gmail.com"
@@ -53,6 +54,16 @@ export default function Footer() {
 							rel="noreferrer"
 						>
 							<FaInstagram size={40} />
+						</a>
+					</li>
+					<li className="pl-1 md:pl-4 social-list_item">
+						<a
+							className="social-list_link"
+							href="https://calendly.com/thomas-e-gooch"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<AiOutlineSchedule size={40} />
 						</a>
 					</li>
 				</ul>

@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { AiOutlineSchedule } from "react-icons/ai";
 
 export default function SocialLinks() {
 	const links = [
@@ -47,9 +48,18 @@ export default function SocialLinks() {
 			),
 			href: "mailto:thomas.e.gooch@gmail.com",
 		},
-
 		{
 			id: 6,
+			child: (
+				<>
+					{" "}
+					Schedule <AiOutlineSchedule size={30} />
+				</>
+			),
+			href: "https://calendly.com/thomas-e-gooch",
+		},
+		{
+			id: 7,
 			child: (
 				<>
 					{" "}

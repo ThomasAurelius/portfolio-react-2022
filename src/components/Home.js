@@ -33,12 +33,10 @@ export default function Home() {
 						/>
 					</h2>
 					<p className="text-gray-400 py-4 px-4 max-w-xlg self-center text-center sm:text-3xl text-xl ">
-						I craft innovative and modern web solutions that actively
-						solve your challenges using the internet’s most powerful and
-						proven technologies. Whether you need a striking front-end
-						landing page or a full-featured database-driven application, I
-						break down complex problems and deliver tailored, world-class
-						experiences.{" "}
+						I build modern web applications with a proactive, flexible
+						approach, specializing in solving complex problems across
+						responsive front-end interfaces and robust, database-driven
+						backend systems.{" "}
 					</p>
 
 					<div className="self-center heroButtons">

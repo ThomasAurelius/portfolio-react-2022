@@ -1,151 +1,89 @@
 import React from "react";
-import css from "../assets/css.png";
-import github from "../assets/github.png";
-import reactImg from "../assets/react.png";
-import html from "../assets/html.png";
-import tailwind from "../assets/tailwind.png";
-import javascript from "../assets/javascript.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
-import node from "../assets/node.png";
-import express from "../assets/express2.png";
-import apollo from "../assets/apollo.png";
-import sass from "../assets/sass.png";
-import mongo from "../assets/mongodb.png";
-import mui from "../assets/MUI.svg";
 
-export default function Experience() {
-	const technologies = [
+export default function Timeline() {
+	const jobs = [
 		{
-			id: 3,
-			src: javascript,
-			alt: "Javascript badge",
-			title: "Javascript",
-			style: "shadow-yellow-500",
+			title: "Software Development Engineer",
+			company: "Tokyo Electron",
+			duration: "Dec 2022 – Present",
+			description: [
+				"Deliver, maintain, and enhance key features for mission-critical global enterprise web applications.",
+				"Designed and implemented a new system status tracking system to manage up and downtime visibility.",
+				"Modernized legacy applications by migrating them to cutting-edge frameworks and libraries, significantly improving performance and maintainability.",
+				"Proactively identify, troubleshoot, and rapidly resolve critical issues to minimize disruptions and ensure seamless performance.",
+				"Work within Agile development methodologies, including Scrum and Kanban.",
+				"Primary Technologies: JavaScript, React, Java EE, OutSystems, Boomi, SQL.",
+			],
 		},
 		{
-			id: 4,
-			src: reactImg,
-			alt: "React badge",
-			title: "React",
-			style: "shadow-blue-600",
+			title: "Contract Software Engineer, Community Mentor",
+			company: "100Devs",
+			duration: "Jan 2022 – Dec 2022",
+			description: [
+				"Worked with students to help them learn and grow as developers.",
+				"Provided mentorship and guidance to help students build their portfolios.",
+				"Developed and maintained web applications for the 100Devs community.",
+				"Primary Technologies: JavaScript, React, NextJS, NodeJS, MongoDB, Express.",
+			],
 		},
 		{
-			id: 14,
-			src: mui,
-			alt: "Material UI badge",
-			title: "Material UI",
-			style: "shadow-blue-400",
+			title: "Freelance Software Engineer",
+			company: "Self-Employed",
+			duration: "Jan 2021 – Present",
+			description: [
+				"Built, maintained, and enhanced dynamic web applications tailored to diverse client needs.",
+				"Collaborated closely with clients to identify requirements, solve critical challenges, and deliver impactful full-stack solutions.",
+				"Provided ongoing support and maintenance for existing applications.",
+				"Primary Technologies: Javascript, React, NextJS, NodeJS, MongoDB, Express.",
+			],
 		},
 		{
-			id: 5,
-			src: tailwind,
-			alt: "Tailwind badge",
-			title: "Tailwind",
-			style: "shadow-sky-400",
-		},
-		{
-			id: 12,
-			src: sass,
-			alt: "Sass badge",
-			title: "Sass",
-			style: "shadow-pink-400",
-		},
-		{
-			id: 1,
-			src: html,
-			alt: "HTML5 badge",
-			title: "HTML",
-			style: "shadow-orange-500",
-		},
-		{
-			id: 2,
-			src: css,
-			alt: "CSS3 badge",
-			title: "CSS",
-			style: "shadow-blue-500",
-		},
-		{
-			id: 8,
-			src: github,
-			alt: "Github badge",
-			title: "Git & Github",
-			style: "shadow-gray-400",
-		},
-		{
-			id: 6,
-			src: nextjs,
-			alt: "Next.js badge",
-			title: "Next.js",
-			style: "shadow-white",
-		},
-		{
-			id: 7,
-			src: graphql,
-			alt: "Graph QL badge",
-			title: "Graph QL",
-			style: "shadow-pink-600",
-		},
-
-		{
-			id: 9,
-			src: node,
-			alt: "NodeJS badge",
-			title: "NodeJs",
-			style: "shadow-green-300",
-		},
-		{
-			id: 10,
-			src: express,
-			alt: "Express badge",
-			title: "Express",
-			style: "shadow-gray-400",
-		},
-		{
-			id: 11,
-			src: apollo,
-			alt: "Apollo badge",
-			title: "Apollo",
-			style: "shadow-blue-800",
-		},
-		{
-			id: 13,
-			src: mongo,
-			alt: "MongoDB badge",
-			title: "MongoDB",
-			style: "shadow-green-600",
+			title: "Community Organizer",
+			company: "Code CoOp Austin",
+			duration: "Dec 2024 – Present",
+			description: [
+				"Organized and led community events to promote coding and technology education.",
+				"Collaborated with local organizations to provide resources and support for underrepresented groups in tech.",
+				"Held workshops and training sessions to help individuals learn coding skills.",
+			],
 		},
 	];
 
 	return (
-		<section
+		<div
 			name="experience"
-			className="bg-gradient-to-b from-gray-800 to-black w-full h-full text-white  lg:px-12"
+			className="w-full h-full bg-gradient-to-b from-gray-800 to-black p-4 text-white lg:px-12"
 		>
-			<article className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-				<div>
-					<p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-						Technology
-					</p>
-					<p className="py-6">
-						These are the primary technologies that I work with, but I am
-						always learning and looking to add new technologies to my
-						experience.
-					</p>
-				</div>
+			<div>
+				<p className="text-4xl font-bold inline border-b-4 border-gray-500">
+					Experience
+				</p>
+			</div>
 
-				<div className="w-full grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-6 text-center py-8 px-12 sm:px-0">
-					{technologies.map(({ id, src, alt, title, style }) => (
-						<div
-							key={id}
-							className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
-						>
-							<img className="w-20 mx-auto" src={src} alt={alt} />
-							<p className="mt-4">{title}</p>
+			<div className=" container z-0 mx-auto px-4 md:px-20 py-12">
+				{jobs.map((job, idx) => (
+					<div key={idx} className="mb-8 flex items-start">
+						{/* Dot centered on the line */}
+						<div className="mr-4 flex-shrink-0">
+							<div className="bg-accent w-4 h-4 rounded-full border-2 border-white translate-x-2" />
 						</div>
-					))}
-				</div>
-			</article>
-		</section>
+
+						{/* Job content */}
+						<div className="pl-2">
+							<h3 className="text-xl font-semibold">{job.title}</h3>
+							<p className="text-gray-600">{job.company}</p>
+							<p className="text-gray-500 text-sm">{job.duration}</p>
+							<ul className="mt-2 list-disc list-inside">
+								{job.description.map((line, i) => (
+									<li key={i} className="text-base">
+										{line}
+									</li>
+								))}
+							</ul>
+						</div>
+					</div>
+				))}
+			</div>
+		</div>
 	);
 }

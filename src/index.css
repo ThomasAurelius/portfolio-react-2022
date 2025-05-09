@@ -12,6 +12,8 @@
 	}
 }
 
+
+
 .inline {
 	display: inline;
 }
@@ -256,13 +258,13 @@ footer h3 {
 	
 	
 	.portfolio-img-card img {
-		width: 90vw;
+		width: 80vw;
 		height: auto;
 		margin: 0 auto
 	}
 
 	.portfolio-img-card {
-		width: 90vw;
+		width: 80vw;
 		height: auto;
 		margin: 0 auto;
 	}
@@ -293,6 +295,12 @@ footer h3 {
 	.portfolio-card .card_front h3,
 	.portfolio-card .card_back h3 {
 		font-size: 1.5rem;
+	}
+
+	.portfolio-card {
+		width: 90vw;
+		height: auto;
+		margin: 0 auto;
 	}
 	
 }

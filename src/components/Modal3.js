@@ -25,7 +25,7 @@ const customStyles = {
 		backgroundColor: "black",
 		border: "1px solid white",
 		borderRadius: "10px",
-		padding: "20px",
+		padding: "0px",
 		color: "white",
 	},
 };
@@ -49,7 +49,7 @@ export default function Modal1() {
 	return (
 		<div className="flex flex-col justify-center items-center">
 			<button type="button" onClick={openModal}>
-				<section className="portfolio-card flex h-full border-white-1 justify-center items-center">
+				<section className="portfolio-card flex h-full shadow-white shadow-md p-4 rounded-lg  justify-center items-center bg-gradient-to-b from-gray-800 to-black ">
 					<section className="portfolio-card flex flex-col lg:flex-row h-full border-white-1 justify-center items-center">
 						<div className="portfolio-img-card w-[400px] flex flex-col ">
 							<p className="flex text-center justify-center text-xl  text-white p-2">
@@ -73,7 +73,7 @@ export default function Modal1() {
 								/>
 							</div>
 							<div className="flex w-[400px] flex-col justify-center items-center p-2">
-								<button className="flex gap-4 mb-4 bg-accent text-white px-4 py-2 rounded">
+								<button className="flex mt-8 gap-4 mb-4 bg-accent text-white px-4 py-2 rounded">
 									Details
 								</button>
 							</div>
@@ -88,7 +88,27 @@ export default function Modal1() {
 				style={customStyles}
 				contentLabel="Simply Roomy"
 			>
-				<div className="flex flex-col justify-center items-center p-4">
+				<div className="relative flex flex-col justify-center items-center bg-gradient-to-b from-black to-gray-800 p-4">
+					{/* Close "X" button */}
+					<button
+						onClick={closeModal}
+						className="absolute top-2 right-2 p-2 focus:outline-none"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							className="h-6 w-6 text-white"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							strokeWidth={2}
+						>
+							<path
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								d="M6 18L18 6M6 6l12 12"
+							/>
+						</svg>
+					</button>
 					<h2 className="text-2xl font-bold mb-4">
 						Home Organizing Site for a Client
 					</h2>
@@ -217,7 +237,7 @@ export default function Modal1() {
 					</button>
 					<button
 						onClick={closeModal}
-						className="bg-accent text-white px-4 py-2 rounded"
+						className="text-accent bg-black font-bold px-4 py-2 rounded"
 					>
 						Close
 					</button>

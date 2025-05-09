@@ -6,8 +6,11 @@ import amie from "../assets/amie2.jpg";
 
 const Testimonials = () => {
 	return (
-		<div className="w-full h-full bg-gradient-to-b to-black from-gray-800 p-4 text-white  lg:px-12">
-			<article className="max-w-screen-lg p-2 md:p-4 pt-10 mx-auto flex flex-col justify-center  h-full ">
+		<div className="w-full h-full bg-gradient-to-b to-gray-800 from-black p-4 text-white  lg:px-12">
+			<article
+				name="testimonials"
+				className="max-w-screen-lg p-2 md:p-4 pt-10 mx-auto flex flex-col justify-center  h-full "
+			>
 				<div>
 					<p className="text-4xl font-bold inline border-b-4  border-gray-500">
 						Testimonials
@@ -103,10 +106,10 @@ const Testimonials = () => {
 							information about the programs we offer. We had worked with
 							a few other web developers in the past and Thomas was far
 							and away the best and easiest to work and communicate with.
-							He was fast to responded to questions and corrections and
-							in the end developed a fully functioning website that
-							provides are community exactly what we were looking for and
-							his continued support is priceless.&ldquo;
+							He was fast to respond to questions and corrections and in
+							the end developed a fully functioning website that provides
+							our community exactly what we were looking for and his
+							continued support is priceless.&ldquo;
 						</p>
 					</blockquote>
 				</div>

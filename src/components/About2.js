@@ -119,19 +119,9 @@ export default function About2() {
 				</div>
 				<div className="px-4">
 					<p className="text-2xl mt-5 leading-2">
-						I am passionate about clean UI and intuitive user experiences.
-						I am a big believer in the{" "}
-						<a
-							href="https://en.wikipedia.org/wiki/The_Four_Agreements"
-							target="_blank"
-							className="text-blue-600"
-							rel="noreferrer"
-						>
-							Four Agreements.{" "}
-						</a>
-						I have a strong leadership background and enjoy mentoring
-						other developers, and supporting the dev community as an
-						organizer for the meetup group{" "}
+						I’m passionate about clean UI and intuitive user experiences,
+						with a strong leadership background and a commitment to
+						mentoring developers and supporting the dev community through{" "}
 						<a
 							href="https://www.meetup.com/code-coop-austin"
 							target="_blank"
@@ -140,19 +130,20 @@ export default function About2() {
 						>
 							Code CoOp Austin
 						</a>
-						.<br></br> I own and operate{" "}
+						. I take a proactive, thoughtful approach to
+						development—balancing immediate issue resolution with
+						strategic prioritization. I am a big believer in the{" "}
 						<a
-							href="https://midnightoil.software"
-							className="text-blue-600"
+							href="https://en.wikipedia.org/wiki/The_Four_Agreements"
 							target="_blank"
+							className="text-blue-600"
 							rel="noreferrer"
 						>
-							Midnight Oil Software LLC.
+							Four Agreements
 						</a>
-						, a software development agency with 1 other developer. I do
-						all that work after hours.<br></br> As a process improvement
-						evangelist, I deeply believe in the power of leaving
-						everything better than I found it, especially code.
+						.<br></br> As a process improvement evangelist, I deeply
+						believe in the power of leaving everything better than I found
+						it, especially code.
 					</p>
 					<br />
 					<p className="text-2xl mt-5 leading-2">
@@ -169,14 +160,14 @@ export default function About2() {
 						amazing teenagers, as well as a dog dad to a wonderfully sweet
 						Dachshund, named Jackson, and a pint sized terror of a
 						Dachshund named Bernie. I enjoy gardening, gaming(board, card
-						and console), painting miniatures as well as reading, and
+						and video), painting miniatures as well as reading, and
 						tinkering with electronics.
 					</p>
 					<br />
 					<p className="text-2xl mt-5 leading-2 inline">
-						While I am very happily employed, my dream is to work fully
-						asyncronous and remote, so if you're looking for an async
-						remote developer, hit me up!{" "}
+						While I am happily employed, my dream is to work fully
+						asyncronous and remote, so if you're looking for a prolific
+						async remote developer, hit me up!{" "}
 					</p>
 				</div>
 			</article>

@@ -5,7 +5,7 @@ export default function Contact() {
 		<section
 			name="contact"
 			id="contact"
-			className="w-full h-full bg-gradient-to-b to-gray-800 from-black p-4 text-white  lg:px-12"
+			className="w-full h-full bg-gradient-to-b to-black from-gray-800 p-4 text-white  lg:px-12"
 		>
 			<article className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
 				<div className="pb-4">

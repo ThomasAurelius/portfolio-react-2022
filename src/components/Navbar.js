@@ -20,6 +20,10 @@ export default function Navbar() {
 			link: "portfolio",
 		},
 		{
+			id: 4,
+			link: "experience",
+		},
+		{
 			id: 6,
 			link: "testimonials",
 		},
@@ -32,7 +36,9 @@ export default function Navbar() {
 	return (
 		<nav className="flex justify-between items-center w-full h-20  px-4 text-white bg-black fixed lg:px-12">
 			<div>
-				<img src={logo} alt="logo" className="navlogo" />
+				<Link to="home" smooth duration={500}>
+					<img src={logo} alt="logo" className="navlogo cursor-pointer" />
+				</Link>
 			</div>
 			<ul className="hidden md:flex">
 				{links.map(({ id, link }) => (
