@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-import logo from "../assets/compassicon.png";
+
+import d20 from "../assets/d20.svg";
 
 export default function Navbar() {
 	const [nav, setNav] = useState(false);
@@ -37,7 +38,7 @@ export default function Navbar() {
 		<nav className="flex justify-between items-center w-full h-20  px-4 text-white bg-black fixed lg:px-12">
 			<div>
 				<Link to="home" smooth duration={500}>
-					<img src={logo} alt="logo" className="navlogo cursor-pointer" />
+					<img src={d20} alt="logo" className="navlogo cursor-pointer" />
 				</Link>
 			</div>
 			<ul className="hidden md:flex">

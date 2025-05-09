@@ -209,7 +209,7 @@ export default function Modal1() {
 					</div>
 					<button className="flex gap-4 mb-4">
 						<a
-							href="ecommerce-zeta-three.vercel.app"
+							href="https://ecommerce-zeta-three.vercel.app"
 							target="_blank"
 							rel="noopener noreferrer"
 						>

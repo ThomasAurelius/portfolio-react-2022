@@ -66,7 +66,7 @@ export default function SocialLinks() {
 					Resume <BsFillPersonLinesFill size={30} />
 				</>
 			),
-			href: "https://thomasgooch.dev/Thomas+E.+Gooch+Resume+03022025.pdf",
+			href: "https://thomasgooch.dev/Thomas+E.+Gooch+Resume+05052025.pdf",
 			style: "rounded-br-md",
 			download: true,
 		},

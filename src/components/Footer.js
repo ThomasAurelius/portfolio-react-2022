@@ -19,7 +19,7 @@ export default function Footer() {
 					<li className="social-list_item md:px-4">
 						<a
 							className="social-list_link"
-							href="https://thomasgooch.dev/Thomas+E.+Gooch+Resume+03022025.pdf"
+							href="https://thomasgooch.dev/Thomas+E.+Gooch+Resume+05052025.pdf"
 							download={true}
 							rel="noreferrer"
 						>
