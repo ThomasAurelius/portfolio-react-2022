@@ -120,51 +120,71 @@ export default function About2() {
 					</div>
 				</div>
 				<div className="px-4">
-					<p className="text-2xl mt-5 leading-2">
-						I’m passionate about clean UI and intuitive user experiences,
-						with a strong leadership background and a commitment to
-						mentoring developers and supporting the dev community through{" "}
-						<a
-							href="https://www.meetup.com/code-coop-austin"
-							target="_blank"
-							className="text-blue-600"
-							rel="noreferrer"
-						>
-							Code CoOp Austin
-						</a>
-						. I take a proactive, thoughtful approach to
-						development—balancing immediate issue resolution with
-						strategic prioritization. I am a big believer in the{" "}
-						<a
-							href="https://en.wikipedia.org/wiki/The_Four_Agreements"
-							target="_blank"
-							className="text-blue-600"
-							rel="noreferrer"
-						>
-							Four Agreements
-						</a>
-						.<br></br> As a process improvement evangelist, I deeply
-						believe in the power of leaving everything better than I found
-						it, especially code.
-					</p>
+					<ul className="list-disc pl-6 text-2xl mt-5 leading-relaxed">
+						<li>
+							Experienced React developer with a strong focus on clean UI
+							and intuitive user experience.
+						</li>
+						<li>
+							Strong leadership background with a commitment to mentoring
+							developers and supporting the dev community through{" "}
+							<a
+								href="https://www.meetup.com/code-coop-austin"
+								target="_blank"
+								className="text-blue-600"
+								rel="noreferrer"
+							>
+								Code CoOp Austin
+							</a>
+							.
+						</li>
+						<li>
+							Take a proactive, thoughtful approach to
+							development—balancing immediate issue resolution with
+							strategic prioritization.
+						</li>
+						<li>
+							Advocate of the{" "}
+							<a
+								href="https://en.wikipedia.org/wiki/The_Four_Agreements"
+								target="_blank"
+								className="text-blue-600"
+								rel="noreferrer"
+							>
+								Four Agreements
+							</a>
+							, applying their principles to communication and
+							collaboration.
+						</li>
+						<li>
+							Process improvement evangelist who believes in leaving
+							everything better than I found it—especially code.
+						</li>
+					</ul>
 					<br />
-					<p className="text-2xl mt-5 leading-2">
-						A peek in my{" "}
-						<a
-							href="https://instagram.com/thomasofaurelius"
-							target="_blank"
-							className="text-blue-600"
-							rel="noreferrer"
-						>
-							Instagram
-						</a>{" "}
-						will show you a slice of my daily life. I am a father of two
-						amazing teenagers, as well as a dog dad to a wonderfully sweet
-						Dachshund, named Jackson, and a pint sized terror of a
-						Dachshund named Bernie. I enjoy gardening, gaming(board, card
-						and video), painting miniatures as well as reading, and
-						tinkering with electronics.
-					</p>
+					<ul className="list-disc pl-6 text-2xl mt-5 leading-relaxed">
+						<li>
+							A glimpse into my day-to-day life can be found on{" "}
+							<a
+								href="https://instagram.com/thomasofaurelius"
+								target="_blank"
+								className="text-blue-600"
+								rel="noreferrer"
+							>
+								Instagram
+							</a>
+							.
+						</li>
+						<li>Proud father of two amazing teenagers.</li>
+						<li>
+							Dog dad to two Dachshunds: Jackson (the sweet one) and
+							Bernie (the pint-sized menace).
+						</li>
+						<li>
+							Enjoy gardening, gaming (board, card, and video), painting
+							miniatures, reading, and tinkering with electronics.
+						</li>
+					</ul>
 					<br />
 					<p className="text-2xl mt-5 leading-2 inline">
 						While I am happily employed, my dream is to work fully
