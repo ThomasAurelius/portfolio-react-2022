@@ -1,17 +1,18 @@
 import React from "react";
-
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { AiOutlineSchedule } from "react-icons/ai";
 
-export default function Footer() {
+interface FooterProps {}
+
+const Footer: React.FC<FooterProps> = (): JSX.Element => {
 	return (
 		<footer>
-			<article className="footer bg-gradient-to-b to-gray-800 from-black text-white  lg:px-12">
+			<article className="footer bg-gradient-to-b to-gray-800 from-black text-white lg:px-12">
 				<h3 className="font-bold">Contact me!</h3>
 				<a
 					href="mailto:thomas.e.gooch@gmail.com"
-					className="footer_link  md:text-2xl "
+					className="footer_link md:text-2xl"
 				>
 					thomas.e.gooch@gmail.com
 				</a>
@@ -76,4 +77,6 @@ export default function Footer() {
 			</article>
 		</footer>
 	);
-}
+};
+
+export default Footer;

@@ -19,23 +19,24 @@ import sql from "../assets/sql.png";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-scroll";
 
-export default function About2() {
+const About2: React.FC = (): JSX.Element => {
 	return (
 		<section
-			name="about"
-			className="bg-gradient-to-b to-black from-gray-800 w-full text-white md:h-full  pt-8 pb-20 lg:px-12"
+			id="about"
+			className="bg-gradient-to-b to-black from-gray-800 w-full text-white md:h-full pt-8 pb-20 lg:px-12"
 		>
-			<article className="max-w-screen-lg p-4 mx-auto  justify-center w-full h-full  ">
+			<article className="max-w-screen-lg p-4 mx-auto justify-center w-full h-full">
 				<div className="pb-8">
 					<p className="text-4xl font-bold inline border-b-4 border-gray-500">
 						About
 					</p>
 				</div>
+
 				<div className="about2-top flex gap-5 mx-auto justify-center content-center">
 					<img
 						src={photo}
 						className="selfie rounded-xl"
-						alt="Thomas Gooch Full Stack Web Develeper in Austin Tx"
+						alt="Thomas Gooch Full Stack Web Developer in Austin Tx"
 					/>
 
 					<div className="flex technology-wrapper flex-col gap-3">
@@ -74,6 +75,7 @@ export default function About2() {
 								<span className="tooltiptext">Material UI</span>
 							</div>
 						</div>
+
 						<p>Back End Technologies:</p>
 
 						<div className="technology-icons flex">
@@ -94,6 +96,7 @@ export default function About2() {
 								<span className="tooltiptext">SQL</span>
 							</div>
 						</div>
+
 						<p>Tools:</p>
 						<div className="technology-icons flex">
 							<div className="tooltip">
@@ -119,6 +122,7 @@ export default function About2() {
 						</div>
 					</div>
 				</div>
+
 				<div className="px-4">
 					<ul className="list-disc pl-6 text-2xl mt-5 leading-relaxed">
 						<li>
@@ -131,7 +135,6 @@ export default function About2() {
 							<a
 								href="https://www.meetup.com/code-coop-austin"
 								target="_blank"
-								className="text-blue-600"
 								rel="noreferrer"
 							>
 								Code CoOp Austin
@@ -148,7 +151,6 @@ export default function About2() {
 							<a
 								href="https://en.wikipedia.org/wiki/The_Four_Agreements"
 								target="_blank"
-								className="text-blue-600"
 								rel="noreferrer"
 							>
 								Four Agreements
@@ -168,7 +170,6 @@ export default function About2() {
 							<a
 								href="https://instagram.com/thomasofaurelius"
 								target="_blank"
-								className="text-blue-600"
 								rel="noreferrer"
 							>
 								Instagram
@@ -188,12 +189,12 @@ export default function About2() {
 					<br />
 					<p className="text-2xl mt-5 leading-2 inline">
 						While I am happily employed, my dream is to work fully
-						asyncronous and remote, so if you're looking for a prolific
+						asynchronous and remote, so if you're looking for a prolific
 						async remote developer, hit me up!{" "}
 					</p>
 
-					<Link to={"contact"} smooth duration={500}>
-						<button className="group text-white mt-6 mx-auto px-6 py-3 my-2 flex items-center rounded-md accent-color cursor-pointer md:mb-40 ">
+					<Link to="contact" smooth duration={500}>
+						<button className="group text-white mt-6 mx-auto px-6 py-3 my-2 flex items-center rounded-md accent-color cursor-pointer md:mb-40">
 							Contact Me!
 							<span className="group-hover:rotate-90 duration-300 pl-1">
 								<BsArrowRight size={20} className="ml-1" />
@@ -204,4 +205,6 @@ export default function About2() {
 			</article>
 		</section>
 	);
-}
+};
+
+export default About2;

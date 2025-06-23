@@ -4,11 +4,11 @@ import issac from "../assets/issac1.jpg";
 import juan from "../assets/juan1.jpg";
 import amie from "../assets/amie2.jpg";
 
-const Testimonials = () => {
+export default function Testimonials(): JSX.Element {
 	return (
 		<div className="w-full h-full bg-gradient-to-b to-gray-800 from-black p-4 text-white  lg:px-12">
 			<article
-				name="testimonials"
+				id="testimonials"
 				className="max-w-screen-lg p-2 md:p-4 pt-10 mx-auto flex flex-col justify-center  h-full "
 			>
 				<div>
@@ -152,6 +152,4 @@ const Testimonials = () => {
 			</article>
 		</div>
 	);
-};
-
-export default Testimonials;
+}

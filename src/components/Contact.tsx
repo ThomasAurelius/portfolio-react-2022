@@ -1,11 +1,12 @@
 import React from "react";
 
-export default function Contact() {
+interface ContactProps {}
+
+const Contact: React.FC<ContactProps> = (): JSX.Element => {
 	return (
 		<section
-			name="contact"
 			id="contact"
-			className="w-full h-full bg-gradient-to-b to-black from-gray-800 p-4 text-white  lg:px-12"
+			className="w-full h-full bg-gradient-to-b to-black from-gray-800 p-4 text-white lg:px-12"
 		>
 			<article className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
 				<div className="pb-4">
@@ -38,22 +39,25 @@ export default function Contact() {
 						<textarea
 							name="message"
 							placeholder="Enter your message"
-							rows="10"
-							className="p-2 bg-transparent border-2 rounded-md text-white focus:outline:none"
-						></textarea>
+							rows={10}
+							className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+						/>
 						<input
 							type="hidden"
 							name="_next"
 							value="https://thomasgooch.dev/thanks/index.html"
-						></input>
+						/>
 						<input type="text" name="_honey" className="display-none" />
 						<input
 							type="hidden"
 							name="_subject"
 							value="New submission!"
-						></input>
+						/>
 
-						<button className="text-white accent-color px-6 py-3 my-8 mx-auto flex items bg-center rounded-md hover:scale-110">
+						<button
+							type="submit"
+							className="text-white accent-color px-6 py-3 my-8 mx-auto flex items-center bg-center rounded-md hover:scale-110"
+						>
 							Submit
 						</button>
 					</form>
@@ -61,4 +65,6 @@ export default function Contact() {
 			</article>
 		</section>
 	);
-}
+};
+
+export default Contact;

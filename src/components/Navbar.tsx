@@ -4,36 +4,23 @@ import { Link } from "react-scroll";
 
 import d20 from "../assets/d20.svg";
 
-export default function Navbar() {
-	const [nav, setNav] = useState(false);
+interface NavLink {
+	id: number;
+	link: string;
+}
 
-	const links = [
-		{
-			id: 1,
-			link: "home",
-		},
-		{
-			id: 2,
-			link: "about",
-		},
-		{
-			id: 3,
-			link: "portfolio",
-		},
-		{
-			id: 4,
-			link: "experience",
-		},
-		{
-			id: 6,
-			link: "testimonials",
-		},
+export default function Navbar(): JSX.Element {
+	const [nav, setNav] = useState<boolean>(false);
 
-		{
-			id: 5,
-			link: "contact",
-		},
+	const links: NavLink[] = [
+		{ id: 1, link: "home" },
+		{ id: 2, link: "about" },
+		{ id: 3, link: "portfolio" },
+		{ id: 4, link: "experience" },
+		{ id: 6, link: "testimonials" },
+		{ id: 5, link: "contact" },
 	];
+
 	return (
 		<nav className="flex justify-between items-center w-full h-20  px-4 text-white bg-black fixed lg:px-12">
 			<div>

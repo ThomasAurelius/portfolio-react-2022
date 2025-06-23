@@ -5,10 +5,10 @@ import Modal2 from "./Modal2";
 import Modal3 from "./Modal3";
 import Modal4 from "./Modal4";
 
-export default function Portfolio() {
+export default function Portfolio(): JSX.Element {
 	return (
 		<section
-			name="portfolio"
+			id="portfolio"
 			className="bg-gradient-to-b to-gray-800 from-black text-white pb-20 lg:px-12 "
 		>
 			<article className="max-w-screen-lg p-4 pt-10 mx-auto flex flex-col justify-center w-full h-full ">

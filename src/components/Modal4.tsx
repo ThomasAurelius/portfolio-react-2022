@@ -1,20 +1,17 @@
-import React from "react";
-import { useEffect } from "react";
-import Modal from "react-modal";
-import tailwind from "../assets/tailwind.png";
+import React, { useEffect } from "react";
+import Modal, { Styles } from "react-modal";
+import webstore from "../assets/webstore_landscape.png";
+import webstore2 from "../assets/webstore_cart_landscape.png";
+import webstore3 from "../assets/webstore__product_landscape.png";
+import webstore4 from "../assets/webstore_order_landscape.png";
+import webstore5 from "../assets/webstore_stripe_landscape.png";
 import nextjs from "../assets/nextjs.png";
+import stripe from "../assets/stripe.svg";
 import mongo from "../assets/mongodb.png";
-import firebase from "../assets/firebase.png";
-import nitrohood from "../assets/nitrohood.png";
-import nitrohood1 from "../assets/nitrohood1.png";
-import nitrohood2 from "../assets/nitrohood2.png";
-import nitrohood3 from "../assets/nitrohood3.png";
-import nitrohood4 from "../assets/nitrohood4.png";
-import nitrohood5 from "../assets/nitrohood5.png";
-import clerk from "../assets/clerk.png";
+import express from "../assets/express2.png";
 import { Carousel, IconButton } from "@material-tailwind/react";
 
-const customStyles = {
+const customStyles: Styles = {
 	content: {
 		top: "50%",
 		left: "50%",
@@ -30,34 +27,34 @@ const customStyles = {
 	},
 };
 
-export default function Modal1() {
+export default function Modal4(): JSX.Element {
 	// Use the Next.js mount point
 	useEffect(() => {
 		Modal.setAppElement("#root");
 	}, []);
-	const [isOpen, setIsOpen] = React.useState(false);
+	const [isOpen, setIsOpen] = React.useState<boolean>(false);
 
-	function openModal() {
+	function openModal(): void {
 		console.log("opening modal…");
 		setIsOpen(true);
 	}
 
-	function closeModal() {
+	function closeModal(): void {
 		setIsOpen(false);
 	}
 
 	return (
 		<div className="flex flex-col justify-center items-center">
 			<button type="button" onClick={openModal}>
-				<section className="portfolio-card flex h-full shadow-white shadow-md p-4 rounded-lg justify-center items-center bg-gradient-to-b from-gray-800 to-black  ">
+				<section className="portfolio-card flex h-full  shadow-white shadow-md p-4 rounded-lg  justify-center items-center bg-gradient-to-b from-gray-800 to-black ">
 					<section className="portfolio-card flex flex-col lg:flex-row h-full border-white-1 justify-center items-center">
 						<div className="portfolio-img-card w-[400px] flex flex-col ">
 							<p className="flex text-center justify-center text-xl  text-white p-2">
-								Next.JS Social Media Site
+								Next.JS Demo Ecommerce Site
 							</p>
 							<img
-								src={nitrohood}
-								alt="NextJS Social Media Website"
+								src={webstore}
+								alt="Home Organizaing Service Site"
 								className="rounded-md w-[400px] duration-200 hover:scale-105"
 							/>
 						</div>
@@ -65,10 +62,9 @@ export default function Modal1() {
 							<p className="text-2xl">Technologies Used:</p>
 							<div className="flex flex-wrap justify-center items-center gap-4 m-2">
 								<img className="w-16" src={nextjs} alt="NextJs" />
-								<img className="w-16" src={clerk} alt="Clerk" />
+								<img className="w-16" src={stripe} alt="Stripe" />
 								<img className="w-16" src={mongo} alt="MongoDB" />
-								<img className="w-16" src={firebase} alt="Firebase" />
-								<img className="w-16" src={tailwind} alt="Tailwind" />
+								<img className="w-16" src={express} alt="Express" />
 							</div>
 							<div className="flex w-[400px] flex-col justify-center items-center p-2">
 								<button className="flex mt-8 gap-4 mb-4 bg-accent text-white px-4 py-2 rounded">
@@ -84,7 +80,7 @@ export default function Modal1() {
 				isOpen={isOpen}
 				onRequestClose={closeModal}
 				style={customStyles}
-				contentLabel="NitroHood"
+				contentLabel="Ecommerce"
 			>
 				<div className="relative flex flex-col justify-center items-center bg-gradient-to-b from-black to-gray-800 p-4">
 					{/* Close "X" button */}
@@ -108,7 +104,7 @@ export default function Modal1() {
 						</svg>
 					</button>
 					<h2 className="text-2xl font-bold mb-4">
-						Next.JS Social Media Site
+						Next.JS Demo Ecommerce Site
 					</h2>
 					<Carousel
 						className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-md mb-4"
@@ -168,57 +164,49 @@ export default function Modal1() {
 						)}
 					>
 						<img
-							src={nitrohood}
-							alt="NextJS Social Media Website"
+							src={webstore}
+							alt="Demo Ecommerce Site"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 						<img
-							src={nitrohood1}
-							alt="NextJS Social Media  Website"
+							src={webstore2}
+							alt="Demo Ecommerce Site"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 						<img
-							src={nitrohood2}
-							alt="NextJS Social Media  Website"
+							src={webstore3}
+							alt="Demo Ecommerce Site"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 						<img
-							src={nitrohood3}
-							alt="NextJS Social Media  Website"
+							src={webstore4}
+							alt="Demo Ecommerce Site"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 						<img
-							src={nitrohood4}
-							alt="NextJS Social Media  Website"
-							className="rounded-md w-[400px] duration-200 hover:scale-105"
-						/>
-						<img
-							src={nitrohood5}
-							alt="NextJS Social Media Website"
+							src={webstore5}
+							alt="Demo Ecommerce Site"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 					</Carousel>
 					<p className="text-lg max-w-[800px] mb-4">
-						A niche social media application for car enthusiasts. Offers
-						users a platform to showcase their car's custom build and
-						photos, connect with other users and sell cars/parts. Built
-						with Next.Js, Clerk, MongoDB and Firebase, hosted on Vercel.
-						Future releases will include payment integration and premium
-						features. Demo account available on request.
+						A demo e-commerce webstore built with Next.js, Stripe, Sanity
+						CMS and MongoDB. Features include product management, user
+						authentication, and a fully functional shopping cart. The
+						webstore is hosted on Vercel.
 					</p>
 					<div className="portfolio-tech-card flex flex-col justify-center items-center p-4">
 						<p className="text-2xl">Technologies Used:</p>
 						<div className="flex flex-wrap justify-center items-center gap-4 m-2">
 							<img className="w-16" src={nextjs} alt="NextJs" />
-							<img className="w-16" src={clerk} alt="Clerk" />
+							<img className="w-16" src={stripe} alt="Stripe" />
 							<img className="w-16" src={mongo} alt="MongoDB" />
-							<img className="w-16" src={firebase} alt="Firebase" />
-							<img className="w-16" src={tailwind} alt="Tailwind" />
+							<img className="w-16" src={express} alt="Express" />
 						</div>
 					</div>
 					<button className="flex gap-4 mb-4">
 						<a
-							href="https://main-smoky-six.vercel.app/"
+							href="https://ecommerce-zeta-three.vercel.app"
 							target="_blank"
 							rel="noopener noreferrer"
 						>

@@ -1,19 +1,20 @@
-import React from "react";
-import { useEffect } from "react";
-import Modal from "react-modal";
-import webstore from "../assets/webstore_landscape.png";
-import webstore2 from "../assets/webstore_cart_landscape.png";
-import webstore3 from "../assets/webstore__product_landscape.png";
-import webstore4 from "../assets/webstore_order_landscape.png";
-import webstore5 from "../assets/webstore_stripe_landscape.png";
+import React, { useEffect, useState } from "react";
+import Modal, { Styles } from "react-modal";
+import tailwind from "../assets/tailwind.png";
 import nextjs from "../assets/nextjs.png";
-import stripe from "../assets/stripe.svg";
 import mongo from "../assets/mongodb.png";
-import express from "../assets/express2.png";
+import firebase from "../assets/firebase.png";
+import paypal from "../assets/paypal.png";
+import rescue from "../assets/rescue.png";
+import rescue1 from "../assets/rescue1.png";
+import rescue2 from "../assets/rescue2.png";
+import rescue3 from "../assets/rescue3.png";
+import rescue4 from "../assets/rescue4.png";
+import rescue5 from "../assets/rescue5.png";
+import rescue6 from "../assets/rescue6.png";
+import { Carousel } from "@material-tailwind/react";
 
-import { Carousel, IconButton } from "@material-tailwind/react";
-
-const customStyles = {
+const customStyles: Styles = {
 	content: {
 		top: "50%",
 		left: "50%",
@@ -29,34 +30,29 @@ const customStyles = {
 	},
 };
 
-export default function Modal1() {
-	// Use the Next.js mount point
+const Modal1: React.FC = (): JSX.Element => {
+	const [isOpen, setIsOpen] = useState<boolean>(false);
+
 	useEffect(() => {
-		Modal.setAppElement("#root");
+		// ensure modal accessibility
+		Modal.setAppElement("body");
 	}, []);
-	const [isOpen, setIsOpen] = React.useState(false);
 
-	function openModal() {
-		console.log("opening modal…");
-		setIsOpen(true);
-	}
-
-	function closeModal() {
-		setIsOpen(false);
-	}
+	const openModal = (): void => setIsOpen(true);
+	const closeModal = (): void => setIsOpen(false);
 
 	return (
 		<div className="flex flex-col justify-center items-center">
 			<button type="button" onClick={openModal}>
-				<section className="portfolio-card flex h-full  shadow-white shadow-md p-4 rounded-lg  justify-center items-center bg-gradient-to-b from-gray-800 to-black ">
+				<section className="portfolio-card flex h-full border-slate-800 rounded-lg shadow-white shadow-md p-4 justify-center items-center bg-gradient-to-b from-gray-800 to-black">
 					<section className="portfolio-card flex flex-col lg:flex-row h-full border-white-1 justify-center items-center">
-						<div className="portfolio-img-card w-[400px] flex flex-col ">
-							<p className="flex text-center justify-center text-xl  text-white p-2">
-								Next.JS Demo Ecommerce Site
+						<div className="portfolio-img-card w-[400px] flex flex-col">
+							<p className="flex text-center justify-center text-xl text-white p-2">
+								Next.JS Dachshund Rescue
 							</p>
 							<img
-								src={webstore}
-								alt="Home Organizaing Service Site"
+								src={rescue}
+								alt="NextJS Dachshund Rescue Website"
 								className="rounded-md w-[400px] duration-200 hover:scale-105"
 							/>
 						</div>
@@ -64,9 +60,10 @@ export default function Modal1() {
 							<p className="text-2xl">Technologies Used:</p>
 							<div className="flex flex-wrap justify-center items-center gap-4 m-2">
 								<img className="w-16" src={nextjs} alt="NextJs" />
-								<img className="w-16" src={stripe} alt="Stripe" />
 								<img className="w-16" src={mongo} alt="MongoDB" />
-								<img className="w-16" src={express} alt="Express" />
+								<img className="w-16" src={firebase} alt="Firebase" />
+								<img className="w-16" src={tailwind} alt="Tailwind" />
+								<img className="w-16" src={paypal} alt="PayPal" />
 							</div>
 							<div className="flex w-[400px] flex-col justify-center items-center p-2">
 								<button className="flex mt-8 gap-4 mb-4 bg-accent text-white px-4 py-2 rounded">
@@ -82,7 +79,7 @@ export default function Modal1() {
 				isOpen={isOpen}
 				onRequestClose={closeModal}
 				style={customStyles}
-				contentLabel="Ecommerce"
+				contentLabel="Dachshund Rescue Details"
 			>
 				<div className="relative flex flex-col justify-center items-center bg-gradient-to-b from-black to-gray-800 p-4">
 					{/* Close "X" button */}
@@ -105,25 +102,22 @@ export default function Modal1() {
 							/>
 						</svg>
 					</button>
+
 					<h2 className="text-2xl font-bold mb-4">
-						{" "}
-						Next.JS Demo Ecommerce Site
+						Next.JS Dachshund Rescue
 					</h2>
 					<Carousel
 						className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-md mb-4"
-						autoplay={true}
-						loop={true}
+						autoplay
+						loop
 						autoplayDelay={3000}
 						transitionDelay={500}
 						transitionDuration={500}
 						transitionType="slide"
 						prevArrow={({ handlePrev }) => (
-							<IconButton
-								variant="text"
-								color="black"
-								size="xl"
+							<button
 								onClick={handlePrev}
-								className="!absolute top-2/4 left-4 -translate-y-2/4"
+								className="absolute top-1/2 left-4 -translate-y-1/2 p-2 focus:outline-none"
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -131,7 +125,7 @@ export default function Modal1() {
 									viewBox="0 0 24 24"
 									strokeWidth={2}
 									stroke="currentColor"
-									className="h-6 w-6"
+									className="h-6 w-6 text-white"
 								>
 									<path
 										strokeLinecap="round"
@@ -139,15 +133,12 @@ export default function Modal1() {
 										d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
 									/>
 								</svg>
-							</IconButton>
+							</button>
 						)}
 						nextArrow={({ handleNext }) => (
-							<IconButton
-								variant="text"
-								color="black"
-								size="lg"
+							<button
 								onClick={handleNext}
-								className="!absolute top-2/4 !right-4 -translate-y-2/4"
+								className="absolute top-1/2 right-4 -translate-y-1/2 p-2 focus:outline-none"
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -155,7 +146,7 @@ export default function Modal1() {
 									viewBox="0 0 24 24"
 									strokeWidth={2}
 									stroke="currentColor"
-									className="h-6 w-6"
+									className="h-6 w-6 text-white"
 								>
 									<path
 										strokeLinecap="round"
@@ -163,53 +154,51 @@ export default function Modal1() {
 										d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
 									/>
 								</svg>
-							</IconButton>
+							</button>
 						)}
 					>
-						<img
-							src={webstore}
-							alt="Demo Ecommerce Site"
-							className="rounded-md w-[400px] duration-200 hover:scale-105"
-						/>
-						<img
-							src={webstore2}
-							alt="Demo Ecommerce Site"
-							className="rounded-md w-[400px] duration-200 hover:scale-105"
-						/>
-						<img
-							src={webstore3}
-							alt="Demo Ecommerce Site"
-							className="rounded-md w-[400px] duration-200 hover:scale-105"
-						/>
-						<img
-							src={webstore4}
-							alt="Demo Ecommerce Site"
-							className="rounded-md w-[400px] duration-200 hover:scale-105"
-						/>
-						<img
-							src={webstore5}
-							alt="Demo Ecommerce Site"
-							className="rounded-md w-[400px] duration-200 hover:scale-105"
-						/>
+						{[
+							rescue,
+							rescue1,
+							rescue2,
+							rescue3,
+							rescue4,
+							rescue5,
+							rescue6,
+						].map((imgSrc, idx) => (
+							<img
+								key={idx}
+								src={imgSrc}
+								alt={`Slide ${idx + 1}`}
+								className="rounded-md w-[400px] duration-200 hover:scale-105"
+							/>
+						))}
 					</Carousel>
+
 					<p className="text-lg max-w-[800px] mb-4">
-						A demo e-commerce webstore built with Next.js, Stripe, Sanity
-						CMS and MongoDB. Features include product management, user
-						authentication, and a fully functional shopping cart. The
-						webstore is hosted on Vercel.
+						A Dachshund Rescue website built with Next.js and Tailwind CSS
+						with a PayPal integration. This site solves the administration
+						problem of a dachshund rescue organization by allowing users
+						to browse available dogs, submit adoption applications, and
+						manage user accounts. The website is hosted on Vercel and
+						powered by Firebase for image control, and MongoDB for data
+						storage.
 					</p>
+
 					<div className="portfolio-tech-card flex flex-col justify-center items-center p-4">
 						<p className="text-2xl">Technologies Used:</p>
 						<div className="flex flex-wrap justify-center items-center gap-4 m-2">
 							<img className="w-16" src={nextjs} alt="NextJs" />
-							<img className="w-16" src={stripe} alt="Stripe" />
 							<img className="w-16" src={mongo} alt="MongoDB" />
-							<img className="w-16" src={express} alt="Express" />
+							<img className="w-16" src={firebase} alt="Firebase" />
+							<img className="w-16" src={tailwind} alt="Tailwind" />
+							<img className="w-16" src={paypal} alt="PayPal" />
 						</div>
 					</div>
-					<button className="flex gap-4 mb-4">
+
+					<div className="flex gap-4 mb-4">
 						<a
-							href="https://ecommerce-zeta-three.vercel.app"
+							href="https://rescue-tau.vercel.app/"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -217,7 +206,8 @@ export default function Modal1() {
 								Visit Website
 							</button>
 						</a>
-					</button>
+					</div>
+
 					<button
 						onClick={closeModal}
 						className="text-accent bg-black font-bold px-4 py-2 rounded"
@@ -228,4 +218,6 @@ export default function Modal1() {
 			</Modal>
 		</div>
 	);
-}
+};
+
+export default Modal1;

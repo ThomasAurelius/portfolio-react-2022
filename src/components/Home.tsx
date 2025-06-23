@@ -4,11 +4,13 @@ import { Link } from "react-scroll";
 import Typewriter from "typewriter-effect";
 import ta01 from "../assets/ta-01.png";
 
-export default function Home() {
+interface HomeProps {}
+
+const Home: React.FC<HomeProps> = (): JSX.Element => {
 	return (
 		<section
-			name="home"
-			className="home-section h-full w-full bg-gradient-to-b from-black via-black to-gray-800 text-white pt-20  lg:px-12 md:pt-60 text-center md:text-right"
+			id="home"
+			className="home-section h-full w-full bg-gradient-to-b from-black via-black to-gray-800 text-white pt-20 lg:px-12 md:pt-60 text-center md:text-right"
 		>
 			<article className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row xs:text-center">
 				<div className="flex flex-col justify-center items-center h-full">
@@ -32,16 +34,16 @@ export default function Home() {
 							}}
 						/>
 					</h2>
-					<p className="text-gray-400 py-4 px-4 max-w-xlg self-center text-center sm:text-3xl text-xl ">
+					<p className="text-gray-400 py-4 px-4 max-w-xlg self-center text-center sm:text-3xl text-xl">
 						I build modern web applications with a proactive, flexible
 						approach, specializing in solving complex problems across
 						responsive front-end interfaces and robust, database-driven
-						backend systems.{" "}
+						backend systems.
 					</p>
 
 					<div className="self-center heroButtons">
-						<Link to={"portfolio"} smooth duration={500}>
-							<button className="group text-white  px-6 py-3 my-2 flex items-center rounded-md accent-color cursor-pointer md:mb-40 ">
+						<Link to="portfolio" smooth duration={500}>
+							<button className="group text-white px-6 py-3 my-2 flex items-center rounded-md accent-color cursor-pointer md:mb-40">
 								Portfolio
 								<span className="group-hover:rotate-90 duration-300 pl-1">
 									<BsArrowRight size={20} className="ml-1" />
@@ -53,14 +55,16 @@ export default function Home() {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<button className="group text-white  px-6 py-3 my-2 flex items-center rounded-md accent-color cursor-pointer md:mb-40 ">
+							<button className="group text-white px-6 py-3 my-2 flex items-center rounded-md accent-color cursor-pointer md:mb-40">
 								Schedule a meeting!
 							</button>
 						</a>
 					</div>
 				</div>
-				<div></div>
+				<div />
 			</article>
 		</section>
 	);
-}
+};
+
+export default Home;

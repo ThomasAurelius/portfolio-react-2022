@@ -1,6 +1,5 @@
-import React from "react";
-import { useEffect } from "react";
-import Modal from "react-modal";
+import React, { useEffect, useState } from "react";
+import Modal, { Styles } from "react-modal";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
@@ -11,10 +10,9 @@ import simply3 from "../assets/simply3.png";
 import simply4 from "../assets/simply4.png";
 import simply5 from "../assets/simply5.png";
 import simply6 from "../assets/simply6.png";
-
 import { Carousel, IconButton } from "@material-tailwind/react";
 
-const customStyles = {
+const customStyles: Styles = {
 	content: {
 		top: "50%",
 		left: "50%",
@@ -30,34 +28,34 @@ const customStyles = {
 	},
 };
 
-export default function Modal1() {
-	// Use the Next.js mount point
+const Modal3: React.FC = (): JSX.Element => {
+	const [isOpen, setIsOpen] = useState<boolean>(false);
+
 	useEffect(() => {
 		Modal.setAppElement("#root");
 	}, []);
-	const [isOpen, setIsOpen] = React.useState(false);
 
-	function openModal() {
+	const openModal = (): void => {
 		console.log("opening modal…");
 		setIsOpen(true);
-	}
+	};
 
-	function closeModal() {
+	const closeModal = (): void => {
 		setIsOpen(false);
-	}
+	};
 
 	return (
 		<div className="flex flex-col justify-center items-center">
 			<button type="button" onClick={openModal}>
-				<section className="portfolio-card flex h-full shadow-white shadow-md p-4 rounded-lg  justify-center items-center bg-gradient-to-b from-gray-800 to-black ">
+				<section className="portfolio-card flex h-full shadow-white shadow-md p-4 rounded-lg justify-center items-center bg-gradient-to-b from-gray-800 to-black">
 					<section className="portfolio-card flex flex-col lg:flex-row h-full border-white-1 justify-center items-center">
-						<div className="portfolio-img-card w-[400px] flex flex-col ">
-							<p className="flex text-center justify-center text-xl  text-white p-2">
+						<div className="portfolio-img-card w-[400px] flex flex-col">
+							<p className="flex text-center justify-center text-xl text-white p-2">
 								Home Organizing Service Site
 							</p>
 							<img
 								src={simply}
-								alt="Home Organizaing Service Site"
+								alt="Home Organizing Service Site"
 								className="rounded-md w-[400px] duration-200 hover:scale-105"
 							/>
 						</div>
@@ -69,7 +67,7 @@ export default function Modal1() {
 								<img
 									className="w-16"
 									src={javascript}
-									alt="Javascript"
+									alt="JavaScript"
 								/>
 							</div>
 							<div className="flex w-[400px] flex-col justify-center items-center p-2">
@@ -89,7 +87,6 @@ export default function Modal1() {
 				contentLabel="Simply Roomy"
 			>
 				<div className="relative flex flex-col justify-center items-center bg-gradient-to-b from-black to-gray-800 p-4">
-					{/* Close "X" button */}
 					<button
 						onClick={closeModal}
 						className="absolute top-2 right-2 p-2 focus:outline-none"
@@ -109,13 +106,14 @@ export default function Modal1() {
 							/>
 						</svg>
 					</button>
+
 					<h2 className="text-2xl font-bold mb-4">
 						Home Organizing Site for a Client
 					</h2>
 					<Carousel
 						className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-md mb-4"
-						autoplay={true}
-						loop={true}
+						autoplay
+						loop
 						autoplayDelay={3000}
 						transitionDelay={500}
 						transitionDuration={500}
@@ -169,46 +167,28 @@ export default function Modal1() {
 							</IconButton>
 						)}
 					>
-						<img
-							src={simply}
-							alt="Home Organizing Site"
-							className="rounded-md w-[400px] duration-200 hover:scale-105"
-						/>
-						<img
-							src={simply1}
-							alt="Home Organizing Site"
-							className="rounded-md w-[400px] duration-200 hover:scale-105"
-						/>
-						<img
-							src={simply2}
-							alt="Home Organizing Site"
-							className="rounded-md w-[400px] duration-200 hover:scale-105"
-						/>
-						<img
-							src={simply3}
-							alt="Home Organizing Site"
-							className="rounded-md w-[400px] duration-200 hover:scale-105"
-						/>
-						<img
-							src={simply4}
-							alt="Home Organizing Site"
-							className="rounded-md w-[400px] duration-200 hover:scale-105"
-						/>
-						<img
-							src={simply5}
-							alt="Home Organizing Site"
-							className="rounded-md w-[400px] duration-200 hover:scale-105"
-						/>
-						<img
-							src={simply6}
-							alt="Home Organizing Site"
-							className="rounded-md w-[400px] duration-200 hover:scale-105"
-						/>
+						{[
+							simply,
+							simply1,
+							simply2,
+							simply3,
+							simply4,
+							simply5,
+							simply6,
+						].map((imgSrc, idx) => (
+							<img
+								key={idx}
+								src={imgSrc}
+								alt={`Slide ${idx + 1}`}
+								className="rounded-md w-[400px] duration-200 hover:scale-105"
+							/>
+						))}
 					</Carousel>
+
 					<p className="text-lg max-w-[800px] mb-4">
 						A live small business web page I made for a client, over a
 						weekend, in a rush as her old hosting was expiring and she
-						needed a new one. I used HTML, CSS and Javascript to create a
+						needed a new one. I used HTML, CSS and JavaScript to create a
 						simple, yet effective website for her home organizing
 						business. The website is hosted on GoDaddy.
 					</p>
@@ -216,14 +196,16 @@ export default function Modal1() {
 						NOTE** This is a live site and real business so please don't
 						spam her!
 					</p>
+
 					<div className="portfolio-tech-card flex flex-col justify-center items-center p-4">
 						<p className="text-2xl">Technologies Used:</p>
 						<div className="flex flex-wrap justify-center items-center gap-4 m-2">
 							<img className="w-16" src={html} alt="HTML" />
 							<img className="w-16" src={css} alt="CSS" />
-							<img className="w-16" src={javascript} alt="Javascript" />
+							<img className="w-16" src={javascript} alt="JavaScript" />
 						</div>
 					</div>
+
 					<button className="flex gap-4 mb-4">
 						<a
 							href="https://simplyroomyorganizing.com"
@@ -235,6 +217,7 @@ export default function Modal1() {
 							</button>
 						</a>
 					</button>
+
 					<button
 						onClick={closeModal}
 						className="text-accent bg-black font-bold px-4 py-2 rounded"
@@ -245,4 +228,6 @@ export default function Modal1() {
 			</Modal>
 		</div>
 	);
-}
+};
+
+export default Modal3;

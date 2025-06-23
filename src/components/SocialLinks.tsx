@@ -4,14 +4,22 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { AiOutlineSchedule } from "react-icons/ai";
 
-export default function SocialLinks() {
-	const links = [
+interface LinkItem {
+	id: number;
+	child: React.ReactNode;
+	href: string;
+	style?: string;
+	download?: boolean;
+}
+
+export default function SocialLinks(): JSX.Element {
+	const links: LinkItem[] = [
 		{
 			id: 1,
 			child: (
 				<>
-					{" "}
-					LinkedIn <FaLinkedin size={30} />
+					<span>LinkedIn </span>
+					<FaLinkedin size={30} />
 				</>
 			),
 			href: "https://www.linkedin.com/in/thomasgooch/",
@@ -21,19 +29,18 @@ export default function SocialLinks() {
 			id: 2,
 			child: (
 				<>
-					{" "}
-					Github <FaGithub size={30} />
+					<span>Github </span>
+					<FaGithub size={30} />
 				</>
 			),
 			href: "https://github.com/ThomasAurelius",
 		},
-
 		{
 			id: 4,
 			child: (
 				<>
-					{" "}
-					Instagram <FaInstagram size={30} />
+					<span>Instagram </span>
+					<FaInstagram size={30} />
 				</>
 			),
 			href: "https://instagram.com/thomasofaurelius",
@@ -42,8 +49,8 @@ export default function SocialLinks() {
 			id: 5,
 			child: (
 				<>
-					{" "}
-					Mail <HiOutlineMail size={30} />
+					<span>Mail </span>
+					<HiOutlineMail size={30} />
 				</>
 			),
 			href: "mailto:thomas.e.gooch@gmail.com",
@@ -52,8 +59,8 @@ export default function SocialLinks() {
 			id: 6,
 			child: (
 				<>
-					{" "}
-					Schedule <AiOutlineSchedule size={30} />
+					<span>Schedule </span>
+					<AiOutlineSchedule size={30} />
 				</>
 			),
 			href: "https://calendly.com/thomas-e-gooch",
@@ -62,8 +69,8 @@ export default function SocialLinks() {
 			id: 7,
 			child: (
 				<>
-					{" "}
-					Resume <BsFillPersonLinesFill size={30} />
+					<span>Resume </span>
+					<BsFillPersonLinesFill size={30} />
 				</>
 			),
 			href: "https://thomasgooch.dev/Thomas+E.+Gooch+Resume+05052025.pdf",
@@ -73,16 +80,14 @@ export default function SocialLinks() {
 	];
 
 	return (
-		<section className="hidden lg:flex flex-col top-[35%] left-0 fixed ">
+		<section className="hidden lg:flex flex-col top-[35%] left-0 fixed">
 			<ul>
 				{links.map(({ id, child, href, style, download }) => (
 					<li
 						key={id}
-						className={
-							"flex justify-between items-center w-36 h-12 px-3 bg-accent ml-[-90px] hover:ml-[-1px] hover:rounded-md duration-300" +
-							" " +
-							style
-						}
+						className={`flex justify-between items-center w-36 h-12 px-3 bg-accent ml-[-90px] hover:ml-[-1px] hover:rounded-md duration-300 ${
+							style || ""
+						}`}
 					>
 						<a
 							href={href}
