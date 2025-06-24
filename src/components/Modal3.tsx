@@ -115,7 +115,6 @@ const Modal3: React.FC = (): JSX.Element => {
 						autoplay={true}
 						loop={true}
 						autoplayDelay={3000}
-						transition={{ duration: 500 }}
 						prevArrow={({ handlePrev }) => (
 							<IconButton
 								variant="text"
