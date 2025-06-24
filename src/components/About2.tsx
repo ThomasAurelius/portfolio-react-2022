@@ -126,8 +126,12 @@ const About2: React.FC = (): JSX.Element => {
 				<div className="px-4">
 					<ul className="list-disc pl-6 text-2xl mt-5 leading-relaxed">
 						<li>
-							Experienced React developer with a strong focus on clean UI
-							and intuitive user experience.
+							Experienced React developer (4 years) with a strong focus
+							on clean UI and intuitive user experience.
+						</li>
+						<li>
+							7 years of remote work experience and 3 years experience
+							developing in an Agile/Scrum environment.
 						</li>
 						<li>
 							Strong leadership background with a commitment to mentoring
@@ -136,26 +140,24 @@ const About2: React.FC = (): JSX.Element => {
 								href="https://www.meetup.com/code-coop-austin"
 								target="_blank"
 								rel="noreferrer"
+								className="text-blue-500 hover:underline"
 							>
 								Code CoOp Austin
 							</a>
 							.
 						</li>
-						<li>
-							Take a proactive, thoughtful approach to
-							development—balancing immediate issue resolution with
-							strategic prioritization.
-						</li>
+
 						<li>
 							Advocate of the{" "}
 							<a
 								href="https://en.wikipedia.org/wiki/The_Four_Agreements"
 								target="_blank"
 								rel="noreferrer"
+								className="text-blue-500 hover:underline"
 							>
 								Four Agreements
 							</a>
-							, applying their principles to communication and
+							, applying their principles to open communication and
 							collaboration.
 						</li>
 						<li>
@@ -171,6 +173,7 @@ const About2: React.FC = (): JSX.Element => {
 								href="https://instagram.com/thomasofaurelius"
 								target="_blank"
 								rel="noreferrer"
+								className="text-blue-500 hover:underline"
 							>
 								Instagram
 							</a>

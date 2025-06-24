@@ -1,6 +1,4 @@
 import React from "react";
-import { BsArrowRight } from "react-icons/bs";
-import { Link } from "react-scroll";
 import Typewriter from "typewriter-effect";
 import ta01 from "../assets/ta-01.png";
 
@@ -42,14 +40,6 @@ const Home: React.FC<HomeProps> = (): JSX.Element => {
 					</p>
 
 					<div className="self-center heroButtons">
-						<Link to="portfolio" smooth duration={500}>
-							<button className="group text-white px-6 py-3 my-2 flex items-center rounded-md accent-color cursor-pointer md:mb-40">
-								Portfolio
-								<span className="group-hover:rotate-90 duration-300 pl-1">
-									<BsArrowRight size={20} className="ml-1" />
-								</span>
-							</button>
-						</Link>
 						<a
 							href="https://calendly.com/thomas-e-gooch"
 							target="_blank"
