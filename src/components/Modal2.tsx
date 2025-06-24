@@ -114,14 +114,12 @@ const Modal2: React.FC = (): JSX.Element => {
 						autoplay={true}
 						loop={true}
 						autoplayDelay={3000}
-						transitionDelay={500}
-						transitionDuration={500}
-						transitionType="slide"
+						transition={{ duration: 500 }}
 						prevArrow={({ handlePrev }) => (
 							<IconButton
 								variant="text"
 								color="black"
-								size="xl"
+								size="lg"
 								onClick={handlePrev}
 								className="!absolute top-2/4 left-4 -translate-y-2/4"
 							>

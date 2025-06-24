@@ -108,12 +108,10 @@ const Modal1: React.FC = (): JSX.Element => {
 					</h2>
 					<Carousel
 						className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-md mb-4"
-						autoplay
-						loop
+						autoplay={true}
+						loop={true}
 						autoplayDelay={3000}
-						transitionDelay={500}
-						transitionDuration={500}
-						transitionType="slide"
+						transition={{ duration: 500 }}
 						prevArrow={({ handlePrev }) => (
 							<button
 								onClick={handlePrev}

@@ -112,17 +112,15 @@ const Modal3: React.FC = (): JSX.Element => {
 					</h2>
 					<Carousel
 						className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-md mb-4"
-						autoplay
-						loop
+						autoplay={true}
+						loop={true}
 						autoplayDelay={3000}
-						transitionDelay={500}
-						transitionDuration={500}
-						transitionType="slide"
+						transition={{ duration: 500 }}
 						prevArrow={({ handlePrev }) => (
 							<IconButton
 								variant="text"
 								color="black"
-								size="xl"
+								size="lg"
 								onClick={handlePrev}
 								className="!absolute top-2/4 left-4 -translate-y-2/4"
 							>
