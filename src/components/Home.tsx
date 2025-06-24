@@ -25,7 +25,7 @@ const Home: React.FC<HomeProps> = (): JSX.Element => {
 									"Full-Stack Web Developer",
 									"Software Engineer",
 									"Miracle Technologist",
-									"Solutions Architect",
+									"Problem Solver",
 								],
 								autoStart: true,
 								loop: true,
