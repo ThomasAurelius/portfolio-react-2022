@@ -150,7 +150,7 @@ footer h3 {
 
 .selfie {
 	display: grid;
-	width: 200px;
+	width: 250px;
 	height: 300px;
 	align-self: center;
 }
@@ -188,9 +188,8 @@ footer h3 {
 
 /* Tooltip container */
 .tooltip {
-	/* position: relative; */
+	position: relative;
 	display: inline-block;
-	border-bottom: 1px dotted black;
 	min-width: 30px;
 	margin-inline: 2px;
 }
@@ -238,6 +237,7 @@ footer h3 {
 .tooltipicon {
 	width: 30px;
 	height: 30px;
+	border: none
 }
 
 .about2-top-left li {

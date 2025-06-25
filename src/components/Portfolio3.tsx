@@ -9,7 +9,7 @@ export default function Portfolio(): JSX.Element {
 	return (
 		<section
 			id="portfolio"
-			className="bg-gradient-to-b to-gray-800 from-black text-white pb-20 lg:px-12 "
+			className="bg-gradient-to-b to-black from-gray-800 w-full text-white md:h-full pt-8 pb-20 lg:px-12"
 		>
 			<article className="max-w-screen-lg p-4 pt-10 mx-auto flex flex-col justify-center w-full h-full ">
 				<div className="pb-8">

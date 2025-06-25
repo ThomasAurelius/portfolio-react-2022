@@ -48,7 +48,7 @@ const Modal2: React.FC = (): JSX.Element => {
 	return (
 		<div className="flex flex-col justify-center items-center">
 			<button type="button" onClick={openModal}>
-				<section className="portfolio-card flex h-full shadow-white shadow-md p-4 rounded-lg justify-center items-center bg-gradient-to-b from-gray-800 to-black">
+				<section className="portfolio-card flex h-full  p-4 rounded-lg justify-center items-center bg-gradient-to-b from-gray-800 to-black">
 					<section className="portfolio-card flex flex-col lg:flex-row h-full border-white-1 justify-center items-center">
 						<div className="portfolio-img-card w-[400px] flex flex-col">
 							<p className="flex text-center justify-center text-xl text-white p-2">
@@ -224,12 +224,6 @@ const Modal2: React.FC = (): JSX.Element => {
 							</button>
 						</a>
 					</div>
-					<button
-						onClick={closeModal}
-						className="text-accent bg-black font-bold px-4 py-2 rounded"
-					>
-						Close
-					</button>
 				</div>
 			</Modal>
 		</div>

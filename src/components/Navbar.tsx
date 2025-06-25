@@ -14,9 +14,10 @@ export default function Navbar(): JSX.Element {
 
 	const links: NavLink[] = [
 		{ id: 1, link: "home" },
-		{ id: 2, link: "about" },
+
 		{ id: 3, link: "portfolio" },
 		{ id: 4, link: "experience" },
+		{ id: 2, link: "about" },
 		{ id: 6, link: "testimonials" },
 		{ id: 5, link: "contact" },
 	];
@@ -24,9 +25,9 @@ export default function Navbar(): JSX.Element {
 	return (
 		<nav className="flex justify-between items-center w-full h-20  px-4 text-white bg-black fixed lg:px-12">
 			<div>
-				<Link to="home" smooth duration={500}>
+				{/* <Link to="home" smooth duration={500}>
 					<img src={d20} alt="logo" className="navlogo cursor-pointer" />
-				</Link>
+				</Link> */}
 			</div>
 			<ul className="hidden md:flex">
 				{links.map(({ id, link }) => (

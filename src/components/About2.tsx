@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../assets/tg02.jpg";
+import photo from "../assets/tg03.jpg";
 import css from "../assets/css.png";
 import github from "../assets/github.png";
 import reactImg from "../assets/react.png";

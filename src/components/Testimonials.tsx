@@ -6,13 +6,13 @@ import amie from "../assets/amie2.jpg";
 
 export default function Testimonials(): JSX.Element {
 	return (
-		<div className="w-full h-full bg-gradient-to-b to-gray-800 from-black p-4 text-white  lg:px-12">
+		<div className="bg-gradient-to-b to-gray-800 from-black w-full text-white md:h-full pt-8 pb-20 lg:px-12">
 			<article
 				id="testimonials"
 				className="max-w-screen-lg p-2 md:p-4 pt-10 mx-auto flex flex-col justify-center  h-full "
 			>
-				<div>
-					<p className="text-4xl font-bold inline border-b-4  border-gray-500">
+				<div className="pb-8">
+					<p className="text-4xl font-bold inline border-b-4 border-gray-500">
 						Testimonials
 					</p>
 				</div>
@@ -95,7 +95,7 @@ export default function Testimonials(): JSX.Element {
 						</p>
 					</blockquote>
 				</div>
-				<div className="flex flex-col md:flex-row justify-center items-center gap-8 p-4">
+				{/* <div className="flex flex-col md:flex-row justify-center items-center gap-8 p-4">
 					<figure className="w-[100px] mb-4 d-flex align-items-center justify-content-center">
 						<p className="text-2xl">Steve Sessa, Executive Director</p>
 					</figure>
@@ -112,7 +112,7 @@ export default function Testimonials(): JSX.Element {
 							continued support is priceless.&ldquo;
 						</p>
 					</blockquote>
-				</div>
+				</div> */}
 				<div className="flex flex-col md:flex-row justify-center items-center gap-8 p-4">
 					<figure className="w-[100px] mb-4 d-flex align-items-center justify-content-center">
 						<div>
@@ -134,7 +134,7 @@ export default function Testimonials(): JSX.Element {
 						</p>
 					</blockquote>
 				</div>
-				<div className="flex flex-col md:flex-row justify-center items-center gap-8 p-2 md:p-4">
+				{/* <div className="flex flex-col md:flex-row justify-center items-center gap-8 p-2 md:p-4">
 					<figure className="w-[100px] mb-4 d-flex align-items-center justify-content-center">
 						<p className="text-2xl">Jason Harding, Co-Founder</p>
 					</figure>
@@ -148,7 +148,7 @@ export default function Testimonials(): JSX.Element {
 							thought of.&ldquo;
 						</p>
 					</blockquote>
-				</div>
+				</div> */}
 			</article>
 		</div>
 	);
