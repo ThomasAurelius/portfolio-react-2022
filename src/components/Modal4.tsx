@@ -209,8 +209,10 @@ export default function Modal4(): JSX.Element {
 						A board game ecommerce site built with Next.js, MongoDB,
 						Express, and Stripe for payment processing. Features include
 						character, game and campaign management, subscriptions and one
-						time payments, user authentication, and order management. The
-						site is fully responsive and optimized for performance.
+						time payments, user authentication, and user to user
+						messaging. The site is fully responsive and optimized for
+						performance, conquering the biggest villain of board gaming -
+						scheduling!
 					</p>
 					<div className="portfolio-tech-card flex flex-col justify-center items-center p-4">
 						<p className="text-2xl">Technologies Used:</p>
