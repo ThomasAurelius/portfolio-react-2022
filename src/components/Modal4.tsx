@@ -1,10 +1,14 @@
 import React, { useEffect } from "react";
 import Modal, { Styles } from "react-modal";
-import webstore from "../assets/webstore_landscape.png";
-import webstore2 from "../assets/webstore_cart_landscape.png";
-import webstore3 from "../assets/webstore__product_landscape.png";
-import webstore4 from "../assets/webstore_order_landscape.png";
-import webstore5 from "../assets/webstore_stripe_landscape.png";
+import tgc from "../assets/screenshot-tgc.png";
+import tgc0 from "../assets/tgc0.png";
+import tgc1 from "../assets/tgc1.png";
+import tgc2 from "../assets/tgc2.png";
+import tgc3 from "../assets/tgc3.png";
+import tgc4 from "../assets/tgc4.png";
+import tgc5 from "../assets/tgc5.png";
+import tgc6 from "../assets/tgc6.png";
+import tgc7 from "../assets/tgc7.png";
 import nextjs from "../assets/nextjs.png";
 import stripe from "../assets/stripe.svg";
 import mongo from "../assets/mongodb.png";
@@ -50,11 +54,11 @@ export default function Modal4(): JSX.Element {
 					<section className="portfolio-card flex flex-col lg:flex-row h-full border-white-1 justify-center items-center">
 						<div className="portfolio-img-card w-[400px] flex flex-col ">
 							<p className="flex text-center justify-center text-xl  text-white p-2">
-								Next.JS Demo Ecommerce Site
+								The Gathering Call
 							</p>
 							<img
-								src={webstore}
-								alt="Home Organizaing Service Site"
+								src={tgc}
+								alt="The Gathering Call"
 								className="rounded-md w-[400px] duration-200 hover:scale-105"
 							/>
 						</div>
@@ -80,7 +84,7 @@ export default function Modal4(): JSX.Element {
 				isOpen={isOpen}
 				onRequestClose={closeModal}
 				style={customStyles}
-				contentLabel="Ecommerce"
+				contentLabel="Gathering"
 			>
 				<div className="relative flex flex-col justify-center items-center bg-gradient-to-b from-black to-gray-800 p-4">
 					{/* Close "X" button */}
@@ -104,7 +108,7 @@ export default function Modal4(): JSX.Element {
 						</svg>
 					</button>
 					<h2 className="text-2xl font-bold mb-4">
-						Next.JS Demo Ecommerce Site
+						The Gathering Call - Board Game Ecommerce Site
 					</h2>
 					<Carousel
 						className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-md mb-4"
@@ -114,7 +118,7 @@ export default function Modal4(): JSX.Element {
 						prevArrow={({ handlePrev }) => (
 							<IconButton
 								variant="text"
-								color="black"
+								color="white"
 								size="lg"
 								onClick={handlePrev}
 								className="!absolute top-2/4 left-4 -translate-y-2/4"
@@ -138,7 +142,7 @@ export default function Modal4(): JSX.Element {
 						nextArrow={({ handleNext }) => (
 							<IconButton
 								variant="text"
-								color="black"
+								color="white"
 								size="lg"
 								onClick={handleNext}
 								className="!absolute top-2/4 !right-4 -translate-y-2/4"
@@ -161,36 +165,52 @@ export default function Modal4(): JSX.Element {
 						)}
 					>
 						<img
-							src={webstore}
-							alt="Demo Ecommerce Site"
+							src={tgc0}
+							alt="The Gathering Call"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 						<img
-							src={webstore2}
-							alt="Demo Ecommerce Site"
+							src={tgc1}
+							alt="The Gathering Call"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 						<img
-							src={webstore3}
-							alt="Demo Ecommerce Site"
+							src={tgc2}
+							alt="The Gathering Call"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 						<img
-							src={webstore4}
-							alt="Demo Ecommerce Site"
+							src={tgc3}
+							alt="The Gathering Call"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 						<img
-							src={webstore5}
-							alt="Demo Ecommerce Site"
+							src={tgc4}
+							alt="The Gathering Call"
+							className="rounded-md w-[400px] duration-200 hover:scale-105"
+						/>
+						<img
+							src={tgc5}
+							alt="The Gathering Call"
+							className="rounded-md w-[400px] duration-200 hover:scale-105"
+						/>
+						<img
+							src={tgc6}
+							alt="The Gathering Call"
+							className="rounded-md w-[400px] duration-200 hover:scale-105"
+						/>
+						<img
+							src={tgc7}
+							alt="The Gathering Call"
 							className="rounded-md w-[400px] duration-200 hover:scale-105"
 						/>
 					</Carousel>
 					<p className="text-lg max-w-[800px] mb-4">
-						A demo e-commerce webstore built with Next.js, Stripe, Sanity
-						CMS and MongoDB. Features include product management, user
-						authentication, and a fully functional shopping cart. The
-						webstore is hosted on Vercel.
+						A board game ecommerce site built with Next.js, MongoDB,
+						Express, and Stripe for payment processing. Features include
+						character, game and campaign management, subscriptions and one
+						time payments, user authentication, and order management. The
+						site is fully responsive and optimized for performance.
 					</p>
 					<div className="portfolio-tech-card flex flex-col justify-center items-center p-4">
 						<p className="text-2xl">Technologies Used:</p>
@@ -203,7 +223,7 @@ export default function Modal4(): JSX.Element {
 					</div>
 					<button className="flex gap-4 mb-4">
 						<a
-							href="https://ecommerce-zeta-three.vercel.app"
+							href="https://thegatheringcall.com"
 							target="_blank"
 							rel="noopener noreferrer"
 						>

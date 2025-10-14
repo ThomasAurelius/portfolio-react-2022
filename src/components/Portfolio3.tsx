@@ -18,13 +18,13 @@ export default function Portfolio(): JSX.Element {
 					</p>
 				</div>
 				<div className="flex flex-wrap gap-8 justify-center mx-auto content-center">
+					<Modal4 />
+
 					<Modal1 />
 
 					<Modal2 />
 
 					<Modal3 />
-
-					<Modal4 />
 				</div>
 			</article>
 		</section>
