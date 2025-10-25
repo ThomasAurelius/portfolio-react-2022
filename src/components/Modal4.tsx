@@ -69,6 +69,7 @@ export default function Modal4(): JSX.Element {
 								<img className="w-16" src={nextjs} alt="NextJs" />
 								<img className="w-16" src={stripe} alt="Stripe" />
 								<img className="w-16" src={mongo} alt="MongoDB" />
+								<img className="w-16" src={firebase} alt="Firebase" />
 								<img className="w-16" src={express} alt="Express" />
 							</div>
 							<div className="flex w-[400px] flex-col justify-center items-center p-2">
@@ -208,9 +209,9 @@ export default function Modal4(): JSX.Element {
 					</Carousel>
 					<p className="text-lg max-w-[800px] mb-4">
 						A board game ecommerce site built with Next.js, MongoDB,
-						Express, and Stripe for payment processing. Features include
-						character, game and campaign management, subscriptions and one
-						time payments, user authentication, and user to user
+						Express, Firebase and Stripe for payment processing. Features
+						include character, game and campaign management, subscriptions
+						and one time payments, user authentication, and user to user
 						messaging. The site is fully responsive and optimized for
 						performance, conquering the biggest villain of board gaming -
 						scheduling!
