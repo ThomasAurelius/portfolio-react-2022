@@ -126,8 +126,8 @@ const About2: React.FC = (): JSX.Element => {
 				<div className="px-4">
 					<ul className="list-disc pl-6 text-2xl mt-5 leading-relaxed">
 						<li>
-							Experienced React developer (4 years) with a strong focus
-							on clean UI and intuitive user experience.
+							Experienced React/NextJS developer (4 years) with a strong
+							focus on clean UI and intuitive user experience.
 						</li>
 						<li>
 							7 years of remote work experience and 3 years experience
@@ -135,16 +135,7 @@ const About2: React.FC = (): JSX.Element => {
 						</li>
 						<li>
 							Strong leadership background with a commitment to mentoring
-							developers and supporting the dev community through{" "}
-							<a
-								href="https://www.meetup.com/code-coop-austin"
-								target="_blank"
-								rel="noreferrer"
-								className="text-blue-500 hover:underline"
-							>
-								Code CoOp Austin
-							</a>
-							.
+							developers and supporting the dev community.
 						</li>
 
 						<li>

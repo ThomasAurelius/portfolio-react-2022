@@ -48,7 +48,7 @@ const jobs: Job[] = [
 	{
 		title: "Community Organizer",
 		company: "Code CoOp Austin",
-		duration: "Dec 2024 – Present",
+		duration: "Dec 2024 – August 2025",
 		description: [
 			"Organized and led community events to promote coding and technology education.",
 			"Collaborated with local organizations to provide resources and support for underrepresented groups in tech.",

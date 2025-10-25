@@ -225,7 +225,7 @@ export default function Modal4(): JSX.Element {
 					</div>
 					<button className="flex gap-4 mb-4">
 						<a
-							href="https://thegatheringcall.com"
+							href="https://thegatheringcall.com/technical-reference"
 							target="_blank"
 							rel="noopener noreferrer"
 						>

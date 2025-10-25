@@ -73,7 +73,7 @@ export default function SocialLinks(): JSX.Element {
 					<BsFillPersonLinesFill size={30} />
 				</>
 			),
-			href: "https://thomasgooch.dev/Thomas+E.+Gooch+Resume+05052025.pdf",
+			href: "https://thomasgooch.dev/Thomas+E.+Gooch+Resume+10252025.pdf",
 			style: "rounded-br-md",
 			download: true,
 		},
