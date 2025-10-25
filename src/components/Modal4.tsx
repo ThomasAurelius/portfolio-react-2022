@@ -13,6 +13,7 @@ import nextjs from "../assets/nextjs.png";
 import stripe from "../assets/stripe.svg";
 import mongo from "../assets/mongodb.png";
 import express from "../assets/express2.png";
+import firebase from "../assets/firebase.png";
 import { Carousel, IconButton } from "@material-tailwind/react";
 
 const customStyles: Styles = {
@@ -220,6 +221,7 @@ export default function Modal4(): JSX.Element {
 							<img className="w-16" src={nextjs} alt="NextJs" />
 							<img className="w-16" src={stripe} alt="Stripe" />
 							<img className="w-16" src={mongo} alt="MongoDB" />
+							<img className="w-16" src={firebase} alt="Firebase" />
 							<img className="w-16" src={express} alt="Express" />
 						</div>
 					</div>
